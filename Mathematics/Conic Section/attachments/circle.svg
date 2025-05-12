@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="97.921211mm"
+   height="95.496002mm"
+   viewBox="0 0 97.921211 95.496002"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="97.921211"
+       height="95.496002"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch2"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+  </defs>
+  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:0.571;stroke-linecap:butt;stroke-dasharray:1.4275;stroke-dashoffset:0"
+     d="M 45.748,48.089182 81.320669,18.548316"
+     id="path5" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:export-filename="circle.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"
+     transform="translate(-41.483841,-48.828591)">
+    <ellipse
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:1;stroke-dasharray:none"
+       id="path2"
+       inkscape:export-filename="circle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       ry="47.248001"
+       rx="45.248001"
+       cy="96.576591"
+       cx="87.231842" />
+    <circle
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:1;stroke-dasharray:none"
+       id="ellipse5"
+       r="0.34118432"
+       cy="96.91777"
+       cx="86.890656" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:0.5;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:#ff8080;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0"
+       x="122.80451"
+       y="67.376907"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.5;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';fill:#ff8080;stroke:#ff8080;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
+         x="122.80451"
+         y="67.376907">P(x,y)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.5;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff5555;fill-opacity:1;fill-rule:nonzero;stroke:#1a1a1a;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0"
+       x="86.111603"
+       y="102.39732"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="fill:#ff5555;stroke-width:0"
+         x="86.111603"
+         y="102.39732">C(h,k)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0.5;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:#999999;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-dashoffset:0"
+       x="107.26445"
+       y="84.778694"
+       id="text7"
+       inkscape:export-filename="circle.svg"
+       inkscape:export-xdpi="80"
+       inkscape:export-ydpi="80"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="fill:#999999;stroke:#999999;stroke-width:0"
+         x="107.26445"
+         y="84.778694">r</tspan></text>
+  </g>
+</svg>
