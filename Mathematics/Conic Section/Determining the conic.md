@@ -1,6 +1,7 @@
-~={green}Conics:=~ ****![[conics.svg]]
+~={green}Conics:=~ 
+****![[conics.svg|center|800]]
 ~={green}Degenerate Conics:=~
-![[Degenerate conics.png]]
+![[Degenerate conics.png|center|800]]
 
 2nd degree equation:
 $$ax^2 +2hxy+by^2+2gx+2fy+c$$

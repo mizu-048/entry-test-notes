@@ -16,24 +16,49 @@
 	- Oxygen (O): 16 amu
 	- Sodium (Na): 23 amu
 	- Magnesium (Mg): 24 amu
+	- Phosphorus (P): 31 amu
 	- Sulphur (S): 32 amu
 	- Chlorine (Cl): 35.5 amu
-	- Calcium (Ca): 40 amu
-	- Phosphorus (P): 31 amu
 	- Potassium (K): 39 amu
+	- Calcium (Ca): 40 amu
 	- Silver (Ag): 108 amu
 
-$$
-  \dfrac{\text{ Total particles}}{\text{Avogadro's Number }N_{A}} =  \text{ Moles } =  \dfrac{\text{ Mass in grams (g) }}{ \text{ Molar Mass} (amu)}
-$$
+$$  \dfrac{\text{ Total particles}}{\text{Avogadro's Number }N_{A}} =  \text{ Moles } =  \dfrac{\text{ Mass in grams (g) }}{ \text{ Molar Mass} (amu)}$$
+>[!question]- $3.01 \times 10^{23}$  molecules of $\ce{H_{2}O}$ will $ce$ weigh:
+ >a)18g$\qquad$**b)9g**$\qquad$c)4.5g$\qquad$d)none
+ >
+
+>[!question]- 6g of $\ce{H_{2}}$ gas is: 
+ >a)1 mole$\qquad$b)2 moles$\qquad$**c)3 moles**$\qquad$d)4 moles
+ 
+ 
+  
+
+  
 - 1 mole of $\ce{ CO_{2} }$ has 1 mole of C and 2 moles of O, and hence has 12 grams of C and 32 grams of O
 - In Combustion analysis 
 	- $\ce{ Mg(OH)2 }$ absorbs water
 	- 50% $\ce{ KOH }$ absorbs $\ce{ CO_{2} }$
 - mass spectrometer gives $\dfrac{e}{m}$ ratio of ion or atomic masses
-- moles AKA gram atoms
-- Arsenic, Flourine, Iodine and Gold are mono-isotopic
-- 
+- moles AKA gram atoms/molecules/formula units
+- Arsenic, Fluorine, Iodine and Gold are mono-isotopic
+- at STP pressure of every gas is
+$$1  \text{ amu} = 760 \ \text{torr} = 101325 \text{ Pa} = $$
+$$
+ \text{Volume} =  \text{Moles}\times 22.414 \ dm^{3}
+$$
+>[!question]- volume occupied by 0.2 moles of methane gas at STP 
+ >a4.40L)$\qquad$**b)4.48L**$\qquad$c)8.96$\qquad$d)2.24L
+
+- Azimuthal quantum number determines shape of orbital, represented by l
+
+| number | shape     |
+| ------ | --------- |
+| $l=0$  | spherical |
+| $l=1$  | dumbell   |
+| $l=2$  | complex   |
+| $l=3$  | complex   |
+
 ## 7: Fundamentals of Chemistry
 - In metamerism position of functional group changes
 - Cracking produces volatile compounds
@@ -77,7 +102,7 @@ When C-O bond breaks, when nucleophile attacks, when showing basic nature
 $$
    \text{ Tertiary } <  \text{ Secondary }< Primary
 $$
-- Iodoform test: gives ~={yellow}yellow=~ precipitate for compounds with $\beta \ce{ -Ch_{3} }$ .e.g ethanol 
+- Iodoform test: gives ~={yellow}yellow=~ precipitate for compounds with $\beta \ce{ -Ch_{3} }$ e.g.  ethanol 
 - Lucas test:
 - Alkoxides: salt from an alcohol $\ce{ C_{2}H_{5}OH + 2Na -> \underbrace{ C_{2}H_{5}ONa }_{ \text{ alkoxide } }}$
 - 
