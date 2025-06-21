@@ -9,7 +9,7 @@ dg-publish: true
 | **Associative Law** | $(a \oplus b) \oplus c = a \oplus (b \oplus c)$      | The grouping of operands does not affect the result.                                             |
 | **Closure Law**     | $a,b \in S, a \oplus b \in S$ (where $S$ is the set) | The result of applying the operation to two elements from a set is still an element of that set. |
 >[!question]- If A and B are real numbers then A+B is a real number This law is called  
- >**a)Closure**$\qquad$b)Commutative$\qquad$c)Associative$\qquad$d)Distributive
+>**a)Closure**$\qquad$b)Commutative$\qquad$c)Associative$\qquad$d)Distributive
   
 **Supplementary angles**: whose sum is 180(degree)
 
@@ -27,7 +27,7 @@ $\sqrt{ n }=\dfrac{n}{\sqrt{ n }};\qquad \dfrac{1}{\sqrt{ n }}=\dfrac{\sqrt{ n }
   
 - when solving $(a+bi)^{n}$ you can make it  simpler by doing $[(a+bi)^{2}]^{n/2}$
 >[!question]-  $(\frac{1+i}{\sqrt{2}})^8=$ ? 
- >a)$tb$$\qquad$b)$tb$$\qquad$c)$tb$$\qquad$d)$tb$
+>a)$tb$$\qquad$b)$tb$$\qquad$c)$tb$$\qquad$d)$tb$
   m
 
 $\dfrac{[(1+i)^{2}]^{4}}{\sqrt{ 2 }^{8}}=\dfrac{(1+(-1)+2i)^{4}}{16}=\dfrac{16(-1)^{2}}{16}$
@@ -42,8 +42,8 @@ $\dfrac{[(1+i)^{2}]^{4}}{\sqrt{ 2 }^{8}}=\dfrac{(1+(-1)+2i)^{4}}{16}=\dfrac{16(-
 - $cis\theta = Cos\theta+iSin\theta$
 - $\dfrac{cis(x)}{cis(y)} =cis(x-y)$
 - $(cis\theta)^x= cis(\theta x)$
-  >[!question]- $(\cos 20+i\sin 20)^{5} \div (\cos 30+i\sin 30)^{3}$ 
- >a)$\cos 20+i\sin 20$$\qquad$b)$\cos 30+i\sin 30$$\qquad$**c)**$\cos 10+i\sin 10$$\qquad$d)$\cos 20-i\sin 20$
+>[!question]- $(\cos 20+i\sin 20)^{5} \div (\cos 30+i\sin 30)^{3}$ 
+>a)$\cos 20+i\sin 20$$\qquad$b)$\cos 30+i\sin 30$$\qquad$**c)**$\cos 10+i\sin 10$$\qquad$d)$\cos 20-i\sin 20$
   
 - multiplication of complex numbers 
 $$(a+b i)(c+d i) = (ac-bd)+ (ad+ bc)i$$
@@ -56,8 +56,8 @@ $$(a+b i)(c+d i) = (ac-bd)+ (ad+ bc)i$$
   MCQ
 - Multiplicative Inverse: when multiplied turns the number into 1
   Additive Inverse: When added turns the number into 0
-  >[!question]- If $a \in R$ then multiplicative inverse of a is 
- >a)0$\qquad$b)a$\qquad$c)-a$\qquad$**d)**$\dfrac{1}{a}$
+>[!question]- If $a \in R$ then multiplicative inverse of a is 
+>a)0$\qquad$b)a$\qquad$c)-a$\qquad$**d)**$\dfrac{1}{a}$
  
 >[!question]- Additive inverse of (3, 3) in C is
 >a)(3, 0)$\qquad$b)(0, 3)$\qquad$c)(-3, 3)$\qquad$**d)(-3, 3)**
@@ -123,7 +123,7 @@ P & Q & P \land Q \text{ (Conjunction)} & P \lor Q \text{ (Disjunction)} & \neg 
 $|A|= \begin{vmatrix} a & 0 & 0 \\ 0 & b & 0 \\ 0 & 0 & c \end{vmatrix} = (abc)$
 - solve determinant of $4\times4$ or higher using determinant properties
 >[!question]- If $\left|\begin{array}{cc}x & 2 \\ 18 & x\end{array}\right|=\left|\begin{array}{cc}6 & 2 \\ 18 & 6\end{array}\right|$, then $x=$ ? 
- >a)6$\qquad$b)16$\qquad$c)-6$\qquad$d)0
+>a)6$\qquad$b)16$\qquad$c)-6$\qquad$d)0
   
 
 ## 4: Quadratic Equations 
@@ -149,14 +149,14 @@ $$
 - at the point of intersection of two rays their functions are equal. $ax+by = cx+dy$
 - for $ax^2 + bx +c$ whose roots are $\begin{aligned}\alpha \text{ and }  \beta \end{aligned}$ then$$\begin{align*} S = \alpha + \beta &= -\dfrac{b}{a} \\ P = \alpha \times \beta &= \dfrac{c}{a} \\ ax^2 + bx + c &= x^2 - Sx + P \end{align*}$$
 >[!question]- If $\alpha$, $\beta$ are roots of $ax^{2}+bx+c=0$, then the equation with roots $\dfrac{1}{\alpha}, \dfrac{1}{\beta}$​ is: 
- >a)$ax^{2}-bx-c=0$$\qquad$b)$cx^{2}+ax+b=0$$\qquad$c)$bx^{2}+ax+c=0$$\qquad$**d)**$cx^{2}+bx+a=0$
- >
+>a)$ax^{2}-bx-c=0$$\qquad$b)$cx^{2}+ax+b=0$$\qquad$c)$bx^{2}+ax+c=0$$\qquad$**d)**$cx^{2}+bx+a=0$
+>
  
  since $\alpha+\beta=-b$ and $\alpha \beta=c$ do the same for the other roots and put values
   
 - In a homogeneous system, if the determinant of the coefficient matrix is **non-zero**, the system **only has trivial solution** (i.e. $x=0, \ y=0$
 >[!question]- System of equations: $\begin{cases} 3x + 2y = 0 \\ x + 2y = 0 \end{cases}$ has
- >**a)Trivial Solution**$\qquad$b)Non-Trivial Solution$\qquad$c)infinite solutions$\qquad$d)none
+>**a)Trivial Solution**$\qquad$b)Non-Trivial Solution$\qquad$c)infinite solutions$\qquad$d)none
  
  since $$ \begin{align}
  \begin{vmatrix} 
@@ -175,7 +175,7 @@ $$
 \hline
 \text{A.P.} & a_n = a + (n-1)d & S_n = \dfrac{n}{2}[2a_{1} + (n-1)d] = \dfrac{n}{2}(a_{1} + a_n) & \text{A.M} = \dfrac{a + b}{2} & 2, 5, 8 \\
 \hline
-\text{G.P.} & a_n = ar^{n-1} & S_n = \dfrac{a_{1}(1 - r^n)}{1 - r} \, \text{for} \, r < 1, \,  \text{or} \, S_n = \dfrac{a_{1}(r^n - 1)}{r - 1} \, \text{for} \, r > 1 & \text{G.M} = \sqrt{ab} & 3, 6, 12 \\
+\text{G.P.} & a_n = ar^{n-1} & S_n = \dfrac{a_{1}(1 - r^n)}{1 - r} \, \text{for} \, r < 1, \,  \text{or} \, S_n = \dfrac{a_{1}(r^n - 1)}{r - 1} \, \text{for} \, r> 1 & \text{G.M} = \sqrt{ab} & 3, 6, 12 \\
 \hline
 \text{H.P.} & a_n = \dfrac{1}{a + (n-1)d} & S_n = \dfrac{n}{\dfrac{1}{a_1} + \dfrac{1}{a_2} + \dots + \dfrac{1}{a_n}} & \text{H.M} = \dfrac{2ab}{a+B} & 1, \dfrac{1}{2}, \dfrac{1}{3} \\
 \hline
@@ -366,7 +366,7 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 	-  probability can never be greater than 1
 	- Improbability of an event = $P\overline{(E)}$
 >[!question]-  In a box, there are 2 red, 2 blue and 3 green balls. Two balls are picked up randomly. What is the probability that neither is is blue?
- >a)$\dfrac{10}{21}$$\qquad$b)$\dfrac{11}{21}$$\qquad$c)$\dfrac{2}{7}$$\qquad$d)$\dfrac{5}{7}$
+>a)$\dfrac{10}{21}$$\qquad$b)$\dfrac{11}{21}$$\qquad$c)$\dfrac{2}{7}$$\qquad$d)$\dfrac{5}{7}$
   
   Total outcomes: $^{7}C_{2}=21$,probability for NOT BLUE(not including its two balls): $\dfrac{^{7-2}C_{2}}{21}=\dfrac{10}{21}$
   
@@ -436,10 +436,10 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
   </tr>
 </table>
 >[!question]-  What is the probability of getting a sum 9 from two throws of a dice?
- >a)$\dfrac{1}{6}$$\qquad$b)$\dfrac{1}{8}$$\qquad$**c)**$\dfrac{1}{9}$$\qquad$d)$\dfrac{1}{12}$
+>a)$\dfrac{1}{6}$$\qquad$b)$\dfrac{1}{8}$$\qquad$**c)**$\dfrac{1}{9}$$\qquad$d)$\dfrac{1}{12}$
 
 >[!question]- Two dice are tossed. The probability that the total score is a prime number is: 
- >a)$\dfrac{1}{6}$$\qquad$**b)**$\dfrac{5}{12}$$\qquad$c)$\dfrac{1}{2}$$\qquad$d)$\dfrac{7}{9}$
+>a)$\dfrac{1}{6}$$\qquad$**b)**$\dfrac{5}{12}$$\qquad$c)$\dfrac{1}{2}$$\qquad$d)$\dfrac{7}{9}$
   
   
 - Card in a deck: $52$
@@ -449,7 +449,7 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 	- All Hearts and Diamonds are Red
 	- All Spades and Clubs are Black
 >[!question]- One card is drawn from a pack of 52 cards. What is the probability that the card drawn is either a red card or a king?
- >a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{6}{13}$$\qquad$**c)**$\dfrac{7}{13}$$\qquad$d)$\dfrac{27}{52}$
+>a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{6}{13}$$\qquad$**c)**$\dfrac{7}{13}$$\qquad$d)$\dfrac{27}{52}$
   
   Red card Prob: $\dfrac{26}{52}$, King Prob: $\dfrac{4}{52}$, Red King Porb: $\dfrac{2}{52}$; Total Prob: $\dfrac{26}{52}+\dfrac{4}{52}-\dfrac{2}{52}=\dfrac{28}{52}=\dfrac{14}{26}=\dfrac{7}{13}$
 - 1/2 Probability of even and odd sum from one or multiple dice rolls
@@ -458,10 +458,10 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 	- Possible outcomes of a coin tossed $n$ times: $2^{n}$
 	- Possible outcomes of a dice rolled $n$ times: $6^{n}$
 >[!question]- In a simultaneous throw of two coins, the probability of getting at least one head is:
- >a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{1}{3}$$\qquad$c)$\dfrac{2}{3}$$\qquad$**d)**$\dfrac{3}{4}$
+>a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{1}{3}$$\qquad$c)$\dfrac{2}{3}$$\qquad$**d)**$\dfrac{3}{4}$
 
 >[!question]- Four dice are thrown simultaneously. Find the probability that all of them show the same face: 
- >**a)**$\dfrac{1}{216}$$\qquad$b)$\dfrac{1}{36}$$\qquad$c)$\dfrac{4}{216}$$\qquad$d)$\dfrac{3}{216}$
+>**a)**$\dfrac{1}{216}$$\qquad$b)$\dfrac{1}{36}$$\qquad$c)$\dfrac{4}{216}$$\qquad$d)$\dfrac{3}{216}$
  
  Total outcomes: $6^{4}$, same face: $\underbrace{ 6 }_{ \text{since they have only 6 faces which should be same} }$ , $P(E)=\dfrac{6}{6^{4}}=\dfrac{1}{6^{3}}=\dfrac{1}{216}$
   
@@ -472,16 +472,16 @@ $S=\{H H, H T,TH, TT\}$
 ### Mathematical Induction
 - **Use back solving method**
 >[!question]- $1+2+3+4+\dots +(2\times 3^{n-1})=?;\qquad n \in N$
- >a)$3^{n-1}$$\qquad$b)$3^{n-1}+1$$\qquad$**c)**$3^{n-1}-1$$\qquad$d)$3^{n+1}$
+>a)$3^{n-1}$$\qquad$b)$3^{n-1}+1$$\qquad$**c)**$3^{n-1}-1$$\qquad$d)$3^{n+1}$
 
 since n is a natural number, using 2 and adding only first two numbers (1+2) = 3, now put n=2 in each option and whichever equal 3 is correct
 
 
 >[!question]- for positive integral values of n, $5^{n}-2^{n}$ is divisible by: 
- >a)7$\qquad$**b)3**$\qquad$c)2$\qquad$d)5
+>a)7$\qquad$**b)3**$\qquad$c)2$\qquad$d)5
 
-  >[!question]- $n^{2}>n+3$ is true for integral values: 
- >a)$n\geq 2$$\qquad$b)$n>8$$\qquad$**c)**$n \geq 3$$\qquad$d)$n\leq 6$
+>[!question]- $n^{2}>n+3$ is true for integral values: 
+>a)$n\geq 2$$\qquad$b)$n>8$$\qquad$**c)**$n \geq 3$$\qquad$d)$n\leq 6$
   
   since $n\geq3$ includes more numbers than $n>8$  so we use it
 ### Binomial Theorem
@@ -490,7 +490,7 @@ $$
 $$
 where $^{n}C_{0}, \ ^{n}C_{1}, \ ^{n}C_{2}\dots$ are binomial co-efficient
 >[!question]- binomial expression of A is: $1-8x+24x^{2}-32^{3}+16x^{4}$ then A is? 
- >**a)**$(1-2x)^{4}$$\qquad$b)$(1-4x)^{4}$$\qquad$c)$(1+2x)^{4}$$\qquad$d)$(1+4x)^{4}$
+>**a)**$(1-2x)^{4}$$\qquad$b)$(1-4x)^{4}$$\qquad$c)$(1+2x)^{4}$$\qquad$d)$(1+4x)^{4}$
   
   since there are alternating minus sign, A contain a minus, and 2nd term is 8x, which is n($^{n}C_{1}=n =4$) times  $2x$
 
@@ -508,30 +508,30 @@ first make it binomial and it becomes $[(1+x)^{2}]^{4}$
 - Sum of **binomial co-efficient**: $\qquad 2^{n}$ 
 - Sum of even or odd binomial co-efficient: $2^{n-1}$
 >[!question]-  In a binomial expansion, if the sum of binomial coefficients is 128, then the number of terms in expansion
- >a)7$\qquad$b)9$\qquad$**c)8**$\qquad$d)6
+>a)7$\qquad$b)9$\qquad$**c)8**$\qquad$d)6
   
   since $a^{7}=128$ , $n=7$ and number of terms is $n+1=8$
 
 -  Find Sum of co-efficient$_{ \text{not binomial coefficient}}$ of $(a+bx)^{n}$ by replacing $x$ by 1 and solving
-  >[!question]-  Sum of co-efficients in the expansion of $(1-3x)^{5}$ is:
- >a)32$\qquad$b)16$\qquad$**c)-32**$\qquad$d)-16
+>[!question]-  Sum of co-efficients in the expansion of $(1-3x)^{5}$ is:
+>a)32$\qquad$b)16$\qquad$**c)-32**$\qquad$d)-16
 
   
 - Sum of exponent of $a$ and $x$ in each term is equal to $n$
 >[!question]- Which of the following is the term in the expansion of $(x + 3y)^{5}$? 
- >a)$80xy^{2}$$\qquad$**b)**$90y^{2}x^{3}$$\qquad$c)$80x^{5}y^{2}$$\qquad$d)$5xy^{5}$
+>a)$80xy^{2}$$\qquad$**b)**$90y^{2}x^{3}$$\qquad$c)$80x^{5}y^{2}$$\qquad$d)$5xy^{5}$
   
   $n$ is 5 so the degree of the correct option should be 5
 
 - $x^{\text{th}}$ term or $r^{ \text{th}}$ power of b:  
   $$T_{r+1}=\binom{n}{r} \times a^{n-r}\times b^{r}$$ where $r+1$ is for 4th term so we put r=3
 >[!question]- the 8th term in the expansion of $(2x-\dfrac{1}{2x})^{12}$ 
- >a)$198x^{-2}$$\qquad$b)$198x^{2}$$\qquad$c)$-198x^{-2}$$\qquad$d)$-198x^{2}$
+>a)$198x^{-2}$$\qquad$b)$198x^{2}$$\qquad$c)$-198x^{-2}$$\qquad$d)$-198x^{2}$
   
   8th term so r=7, since all coefficient same in option, don't need to calculate $^{12}C_{7}$ , since all even terms in are negatives when a negative is present in equation, its negative, now $a^{n-r}\times b^{r}$$= 2x^{12-7}\times \dfrac{1}{(2x)^{7}}$
 - if asked to find Xth terms **from last**, simply exchange $a$ and $b$: $T_{r+1}=\binom{n}{r} \times b^{n-r}\times a^{r}$
 >[!question]- the 8th term **from last** in the expansion of $(2x-\dfrac{1}{2x})^{12}$ 
- >a)$1526x^{2}$$\qquad$b)$-1498x^{2}$$\qquad$**c)**$-3168x^{2}$$\qquad$d)none
+>a)$1526x^{2}$$\qquad$b)$-1498x^{2}$$\qquad$**c)**$-3168x^{2}$$\qquad$d)none
  
  this time we calculate the combination, $^{12}C_{7}\times(-\dfrac{1}{2x})^{12-7}\times 2x^{7}=729\times-\dfrac{1}{32}\times 128=3168$
 
@@ -540,7 +540,7 @@ first make it binomial and it becomes $[(1+x)^{2}]^{4}$
 	- $(a-bx)^{n}:$ it is simply nth position, if $bx$ has a degree of 1
 	- term independent of $x$ means $x^{0}$, where c=0
 >[!question]- Term involving $x^{2}$ in the expansion of $(2x-\dfrac{1}{2x})^{12}$ 
- >a)$\qquad$b)$\qquad$c)$tb$$\qquad$d)$tb$
+>a)$\qquad$b)$\qquad$c)$tb$$\qquad$d)$tb$
 
 here $n=12$, and $t=2$ so $r=\dfrac{12-2}{2}=5$, that means 6th term involves $x^{2}$
 -   
@@ -582,23 +582,23 @@ $(30\times 11)- (10 \times \dfrac{11}{2}) = 275$
 
 
 >[!question]- $\tan 9\tan 18\tan 72\tan 81$
- >a)0$\qquad$**b)1**$\qquad$c)9$\qquad$d)none
+>a)0$\qquad$**b)1**$\qquad$c)9$\qquad$d)none
 
 $=\cot 81\cot 72\tan 72\tan 81$
 
 >[!question]- $\dfrac{1-\cos t}{\sin t}$ 
- >a)$\cot \dfrac{t}{2}$$\qquad$b)$\tan \dfrac{3}{t}$$\qquad$**c)$\tan \dfrac{t}{2}$**$\qquad$d)$\cos 3t$
+>a)$\cot \dfrac{t}{2}$$\qquad$b)$\tan \dfrac{3}{t}$$\qquad$**c)$\tan \dfrac{t}{2}$**$\qquad$d)$\cos 3t$
 
 simplify put t=90 and compare answers with each option
 
 >[!question]- $8\cos 15 \cos \dfrac{15}{2} \sin \dfrac{15}{4} \cos \dfrac{15}{4}=?$ 
- >a)0.2$\qquad$b)**0.5**$\qquad$c)0.1$\qquad$d)1
+>a)0.2$\qquad$b)**0.5**$\qquad$c)0.1$\qquad$d)1
  
 $=4\cos 15 \cos \dfrac{15}{2} \sin \dfrac{15}{2}\qquad \because 2\sin\theta \cos\theta=\sin 2\theta$ 
 $=2\cos 15  \sin 15= \sin 30=0.5$
 
 >[!question]- $6\sin 10 - 8\sin 10$ 
- >a)2$\qquad$**b)1**$\qquad$c)$\dfrac{1}{2}$$\qquad$d)$\sqrt{ 3 }$
+>a)2$\qquad$**b)1**$\qquad$c)$\dfrac{1}{2}$$\qquad$d)$\sqrt{ 3 }$
 
 $2(3\sin 10- 4\sin^{3}10)$
 
@@ -674,24 +674,24 @@ $4x+9=0;\qquad x=-\dfrac{9}{4}$
 	  any number being multiplied to the variable is divides it in period e.g. $\tan (\dfrac{3}{2}x+50)$ has a period of $\dfrac{2}{3}x$, $\sin (8x +2)$ has period of $\dfrac{x}{4}$(since $4(2x)$) has $2x$ is period of normal $\sin$
 	  if $Sin,Cos,Sec,Co\sec$ trigonometric function have even$_{2,4,6,\dots}$ exponential power, the period becomes half, $\sin^{2}x, \cos ^{6}x$ both have period of $\dfrac{x}{2}$
 >[!question]- period of $y = 3\sin ^{2}5x$ 
- >a)$\dfrac{2\pi}{5}$$\qquad$**b)$\dfrac{\pi}{5}$**$\qquad$c)$\dfrac{5}{\pi}$$\qquad$d)$2\pi$
+>a)$\dfrac{2\pi}{5}$$\qquad$**b)$\dfrac{\pi}{5}$**$\qquad$c)$\dfrac{5}{\pi}$$\qquad$d)$2\pi$
 
 
   since $\sin$ has square, period becomes $2\pi \to \pi$ and since $\theta=5x$, period becomes $\pi \to \dfrac{\pi}{5}$
 - Frequency of a trigonometric function is simply the reciprocal of its period
 >[!question]- frequency of $y=3+2\tan(x-9)$ 
- >a)$\dfrac{\pi}{9}$$\qquad$**b)$\dfrac{1}{\pi}$**$\qquad$c)$\dfrac{9}{\pi}$$\qquad$d)$\dfrac{2}{\pi}$
+>a)$\dfrac{\pi}{9}$$\qquad$**b)$\dfrac{1}{\pi}$**$\qquad$c)$\dfrac{9}{\pi}$$\qquad$d)$\dfrac{2}{\pi}$
 
 - Amplitude is the constant multiplied with the trigonometric function and **is not negative**
 	$\tan,\cot$ have **no amplitude**, their amplitude does not exist
 >[!question]- amplitude of $y=-3\sin x$ 
- >a)-3$\qquad$b)1$\qquad$**c)3**$\qquad$d)$\pm 3$
+>a)-3$\qquad$b)1$\qquad$**c)3**$\qquad$d)$\pm 3$
  
- >[!question]- amplitude of $y=4\tan x$ 
- >a)4$\qquad$b)1$\qquad$c)$\pi$$\qquad$**d)Does not Exist**
+>[!question]- amplitude of $y=4\tan x$ 
+>a)4$\qquad$b)1$\qquad$c)$\pi$$\qquad$**d)Does not Exist**
   
 >[!question]- $\sin x=\sin 2x$ is true in the interval $[0,\pi]$ for:
- >a)$0,\pi$$\qquad$**b)**$0,\pi,\dfrac{\pi}{3}$$\qquad$c)$0,\pi,\dfrac{\pi}{6}$$\qquad$d)$0,\dfrac{\pi}{8}$
+>a)$0,\pi$$\qquad$**b)**$0,\pi,\dfrac{\pi}{3}$$\qquad$c)$0,\pi,\dfrac{\pi}{6}$$\qquad$d)$0,\dfrac{\pi}{8}$
   
 ### 12: Applications of trigonometry
 
@@ -719,19 +719,19 @@ $s = \dfrac{a+b+c}{2}= \dfrac{\text{perimeter}}{2}$
 | relation | $R = \dfrac{abc}{4\Delta}$<br><br>$R = \dfrac{a}{2\sin \alpha}$ | $r=\dfrac{\Delta}{s}$           |           |
 |          | ![[circum circle.png\|center\|200]]                             | ![[in-circle.png\|center\|300]] |           |
 >[!question]- In $\Delta ABC$ if $b =2$, $\beta$=30° then area of circum-circle is: 
- >a)$\pi$$\qquad$b)$2\pi$$\qquad$**c)$4\pi$**$\qquad$d)$8\pi$
+>a)$\pi$$\qquad$b)$2\pi$$\qquad$**c)$4\pi$**$\qquad$d)$8\pi$
 
 >[!question]- The area of $\Delta ABC$ is $72cm$ and its perimeter is $36cm$, the radius of its in-circle is: 
- >a)1cm$\qquad$b)2cm$\qquad$c)$\dfrac{1}{2}cm$$\qquad$**d)4cm**
+>a)1cm$\qquad$b)2cm$\qquad$c)$\dfrac{1}{2}cm$$\qquad$**d)4cm**
 
 >[!question]- Which of the triangle is oblique with sides:
 
- >a)3, 4, 5$\qquad$b)5, 12, 13$\qquad$**c)6, 7 ,16**$\qquad$d)none
+>a)3, 4, 5$\qquad$b)5, 12, 13$\qquad$**c)6, 7 ,16**$\qquad$d)none
 
 | Type        | Angle Condition                       | Description                                | Side Relation                     |
 | ----------- | ------------------------------------- | ------------------------------------------ | --------------------------------- |
-| **Acute**   | All angles < 90°                      | Every angle is sharp or narrow             | All sides follow **a² + b² > c²** |
-| **Obtuse**  | One angle > 90°                       | Contains one wide angle                    | **a² + b² < c²**                  |
+| **Acute**   | All angles < 90°                      | Every angle is sharp or narrow             | All sides follow **a² + b²> c²** |
+| **Obtuse**  | One angle> 90°                       | Contains one wide angle                    | **a² + b² < c²**                  |
 | **Right**   | One angle = 90°                       | Contains one perfect right angle           | **a² + b² = c²** (Pythagorean)    |
 | **Oblique** | No 90° angle (either acute or obtuse) | A general term for **non-right** triangles | Covers **acute** and **obtuse**   |
 where $c$ is the greatest side
@@ -749,17 +749,17 @@ $$
 
 
 >[!question]- $\cos ec^{-1}(\dfrac{1}{2})$ 
- >a)$\dfrac{\pi}{2}$$\qquad$b)$\dfrac{\pi}{3}$$\qquad$c)$\dfrac{\pi}{6}$$\qquad$**d)doesn't exist**
+>a)$\dfrac{\pi}{2}$$\qquad$b)$\dfrac{\pi}{3}$$\qquad$c)$\dfrac{\pi}{6}$$\qquad$**d)doesn't exist**
 
 since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and range of $\cos ec$ is  $x \le -1$  or $x \ge 1$
 >[!question]- $\tan^{-1}(\dfrac{1}{6}) + \cot^{-1}(\dfrac{1}{6}) =?$ 
- >a)cannot be calculated$\qquad$**b)$\dfrac{\pi}{2}$**$\qquad$c)$\dfrac{\pi}{6}$$\qquad$d)$\dfrac{\pi}{4}$
+>a)cannot be calculated$\qquad$**b)$\dfrac{\pi}{2}$**$\qquad$c)$\dfrac{\pi}{6}$$\qquad$d)$\dfrac{\pi}{4}$
  
- >[!question]- $\cos ec^{-1}(2x) + \sec^{-1}(5) =\dfrac{\pi}{2}$, then $x$ is:  
- >a)5$\qquad$b)$\dfrac{2}{5}$$\qquad$**c)$\dfrac{5}{2}$**$\qquad$d)none
+>[!question]- $\cos ec^{-1}(2x) + \sec^{-1}(5) =\dfrac{\pi}{2}$, then $x$ is:  
+>a)5$\qquad$b)$\dfrac{2}{5}$$\qquad$**c)$\dfrac{5}{2}$**$\qquad$d)none
   
 >[!question]- $\arcsin(\dfrac{3}{2})+\arccos(\dfrac{3}{2})=?$  
- >a)$\dfrac{\pi}{2}$$\qquad$b)$\dfrac{\pi}{3}$$\qquad$c)$\dfrac{\pi}{4}$$\qquad$**d) Does not exist**
+>a)$\dfrac{\pi}{2}$$\qquad$b)$\dfrac{\pi}{3}$$\qquad$c)$\dfrac{\pi}{4}$$\qquad$**d) Does not exist**
  
  since $\dfrac{3}{2}=1.5$ and that is out of the rage of $\cos$ and $\sin$
 
@@ -771,10 +771,10 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 | ![[CNX_Calc_Figure_07_03_001.jpg]]  | ![[Pasted image 20250605212455.png]]      | ![[CNX_Calc_Figure_07_03_004.jpg]]        |
 | base= $\sqrt{ a-x^{2} }$            | perp. = $\sqrt{ a+x^{2} }$                | hypo. = $\sqrt{ 1+x^{2} }$                |
 >[!question]- $\tan^{-1}x$ in terms of $\arccos:$ 
- >a)$\cos^{-1}\sqrt{ 1+x^{2} }$$\qquad$**b)$\cos^{-1} \dfrac{1}{\sqrt{ 1+x^{2} }}$**$\qquad$c)$\cos^{-1} \dfrac{1}{\sqrt{ 1-x^{2} }}$$\qquad$d)$\cos^{-1}\sqrt{ 1-x^{2} }$
+>a)$\cos^{-1}\sqrt{ 1+x^{2} }$$\qquad$**b)$\cos^{-1} \dfrac{1}{\sqrt{ 1+x^{2} }}$**$\qquad$c)$\cos^{-1} \dfrac{1}{\sqrt{ 1-x^{2} }}$$\qquad$d)$\cos^{-1}\sqrt{ 1-x^{2} }$
 
 >[!question]-  $\cos^{-1}(\sin^{-1}x)=?$
- >a)$\dfrac{1}{x}$$\qquad$b)$1-x$$\qquad$**c)**$\sqrt{ 1-x^{2} }$$\qquad$d)$\sqrt{ 1+x^{2} }$
+>a)$\dfrac{1}{x}$$\qquad$b)$1-x$$\qquad$**c)**$\sqrt{ 1-x^{2} }$$\qquad$d)$\sqrt{ 1+x^{2} }$
   
 # Part 2
 
@@ -935,7 +935,7 @@ $$
 - Position of a point $P(x_{1},y_{1})$ relative to a line $ax + by + c = 0$
 $$
   \begin{align}
-  ax_{1} + by_{1} + c > 0;& \quad \text{lies above line}\\
+  ax_{1} + by_{1} + c> 0;& \quad \text{lies above line}\\
   ax_{1} + by_{1} + c < 0;& \quad \text{lies below line}\\
   ax_{1} + by_{1} + c = 0;& \quad \text{lies on the line}\\
 \end{align}
@@ -944,7 +944,7 @@ $$
 
 $$
 \begin{align}
-a > 0 ; &   \quad  \text{ above x-axis } \quad | &  \quad b > 0 ;    \quad  \text{ right y-axis } \\ 
+a> 0 ; &   \quad  \text{ above x-axis } \quad | &  \quad b> 0 ;    \quad  \text{ right y-axis } \\ 
 a < 0 ; &   \quad  \text{ below x-axis }\quad  |  & \quad b < 0 ;    \quad  \text{ left y-axis }\\
 a = 0 ; &   \quad  \text{ on x-axis } \quad \quad   |&  \quad b = 0 ;    \quad  \text{ on y-axis }\\
 \end{align}$$
@@ -967,7 +967,7 @@ $$
 $$
 - $ax^{2} + 2hxy +by^{2} =0$ represents two lines through origin, they are
 $$\begin{align}
- \text{ real and distinct: } & h^{2} > ab \\
+ \text{ real and distinct: } & h^{2}> ab \\
  \text{ real and coincident: } & h^{2} = ab \\
  \text{ imaginary: } &  h^{2} < ab\\ \\
 \end{align}
@@ -979,13 +979,13 @@ $$
 - pair of lines perpendicular to $ax^2 + 2hxy +by^2 =0$ are given by $bx^2 - 2hxy +ay^2 =0$ 
 
 ## 5: Linear Inequalities and Programming
-- if an equality  $ax+by >$ or $<  0$ its associated equation ax + bx = 0 which represents the line, if the equations includes $\leq \text{or} \geq$ then this line is included otherwise its shown as dotted
+- if an equality  $ax+by>$ or $<  0$ its associated equation ax + bx = 0 which represents the line, if the equations includes $\leq \text{or} \geq$ then this line is included otherwise its shown as dotted
 - a function being maximized or minimized is an objective function
 - the solution which maximizes or minimizes a function is called an optimal solution
 - feasible regions, region restricted to first quadrant
 - optimal solution only exists in feasible region
 - intersection of two boundary lines is a corner point if its is in feasible region
-- four symbols of inequality $<,\  >, \ \geq, \ \leq$
+- four symbols of inequality $<,\>, \ \geq, \ \leq$
 - the corner point satisfies both inequalities, and can be obtained by solving the associated equation of both lines
 - 
 - 
@@ -1024,7 +1024,7 @@ if $xy$ term is present ==use the following method:==
 $$\begin{align}
 
 h^2 = AB: &  \qquad \to \text{ Parabola } \\
-h^2 > AB: &  \qquad \to \text{ Hyperbola} \\
+h^2> AB: &  \qquad \to \text{ Hyperbola} \\
 h^2 < AB: &  \qquad \to \text{ Circle or Ellipse } \\
 h=0; \ \ A=B: & \qquad \to \text{ Circle }
 \end{align}
@@ -1061,7 +1061,7 @@ $$
 - Position of a point $P(x_{1},y_{1})$ relative to a circle is done by putting point in equation of circle(standard or general)
 $$
   \begin{align}
-  r^2=(x_{1}-h)^2 + (y_{1}-k)^2 > 0;& \quad \text{lies outside circle}\\
+  r^2=(x_{1}-h)^2 + (y_{1}-k)^2> 0;& \quad \text{lies outside circle}\\
    \\
 r^2=(x_{1}-h)^2 + (y_{1}-k)^2 < 0;& \quad \text{lies inside circle}\\
    \\
@@ -1157,8 +1157,8 @@ Co Vertices(∓(b+h), k) = (∓(4+2),-1)
  Foci (∓(c+h),k) = (∓(5+2),-1)    ; $c=\sqrt{ a^{2}+b^{2} }$
 
 - for asymptotes simply replace the 1 with 0 and solve for y
-  >[!question]- asymptote of $4x^{2}-y^{2}=1$ 
- >a)$y=\pm x$$\qquad$**b)$y=\pm 2x$**$\qquad$c)$y=1$$\qquad$d)none
+>[!question]- asymptote of $4x^{2}-y^{2}=1$ 
+>a)$y=\pm x$$\qquad$**b)$y=\pm 2x$**$\qquad$c)$y=1$$\qquad$d)none
 
 $4x^{2}-y^{2}=0$
 $4x^{2}=y^{2};\qquad y=\pm2x$
@@ -1173,12 +1173,12 @@ $4x^{2}=y^{2};\qquad y=\pm2x$
 - $PQ = -QP$
 - sum of vectors forming a closed loop is zero
 >[!question]- A(1,1,2), B(2,2,3), C(3,3,4) and D(4,4,5) then $AB+BC+CD+DA=?$
- >a)(10,10,10)$\qquad$**b)0**$\qquad$c)(1,1,1)$\qquad$d)none
+>a)(10,10,10)$\qquad$**b)0**$\qquad$c)(1,1,1)$\qquad$d)none
   
 - for a triangle sum of its sides as vectors is zero $$\underline{u} + \underline{v} + \underline{w} = 0$$
   or sum of its any two sides, is equal to the third$$\underline{u} + \underline{v} =  \underline{w} $$
 >[!question]- $i+j+k, \ 2i+3j+4k,  \text{ and } 3i+\lambda j+5k$  is a triangle, value of $\lambda$ is:
- >**a)4**$\qquad$b)-4$\qquad$c)2$\qquad$d)-2
+>**a)4**$\qquad$b)-4$\qquad$c)2$\qquad$d)-2
   
 - line segment for  origin to point is a position vector
 - from point to point is a vector
@@ -1195,12 +1195,12 @@ $$
 
 - to two vectors are perpendicular and you need to find one of its coordinates, set their dot product equal to zero and solve
 >[!question]- $a=2\alpha i+j-k$ and $b=i+\alpha j+4k$ , are perpendicular then $\alpha=?$
- >**a)$\dfrac{4}{3}$**$\qquad$b)4$\qquad$c)3$\qquad$d)$\dfrac{5}{3+}$
+>**a)$\dfrac{4}{3}$**$\qquad$b)4$\qquad$c)3$\qquad$d)$\dfrac{5}{3+}$
   
 - 
 - projection **of B** *on* **A** where $\theta$ is the angle b/w them is: = component of B along A = $B\cos\theta =\dfrac{\vec{A}\vec{B}}{A} = \vec{B}\hat{A}$
 >[!question]- if the projection of $a=3i+j-k$ along $b=\lambda i-j+k$ is $-\dfrac{8}{\sqrt{ 6 }}$ then $\lambda$ is?
- >a)-1$\qquad$**b)-2**$\qquad$c)0$\qquad$d)1
+>a)-1$\qquad$**b)-2**$\qquad$c)0$\qquad$d)1
  
  
 
@@ -1212,7 +1212,7 @@ $\dfrac{3\lambda -2}{\sqrt{ \lambda^{2} }+2}=-\dfrac{8}{\sqrt{ 6 }}$; now just t
 -  if two vectors $u=ai+bj$ and $v=ci+dj$, then the ratios of coefficient of components in same direction are equal
 		i.e. $\dfrac{a}{c}=\dfrac{b}{d}$
 >[!question]-  if $u=4i-6j$ and $v=\alpha i-18j$, are parallel then $\alpha$ is:
- >a)4$\qquad$b)6$\qquad$c)8$\qquad$**d)12**
+>a)4$\qquad$b)6$\qquad$c)8$\qquad$**d)12**
  
  - a vector$u=ai+bj+ck$ is
 	 - is $\sqrt{ a^{2}+b^{2} }$ units away from z-axis
@@ -1220,7 +1220,7 @@ $\dfrac{3\lambda -2}{\sqrt{ \lambda^{2} }+2}=-\dfrac{8}{\sqrt{ 6 }}$; now just t
 	 - is $\sqrt{ c^{2}+b^{2} }$ units away from x-axis
 
 >[!question]- A(3, 4, 9) then distance of A from z-axis is: 
- >**a)5**$\qquad$b)6$\qquad$c)3$\qquad$d)8
+>**a)5**$\qquad$b)6$\qquad$c)3$\qquad$d)8
 
 - Direction cosines of a vector are the components of its unit vector
 	- e.g. $u=4i-6j$ has direction cosines of $\cos \alpha=\dfrac{4}{\sqrt{ 52 }}$ and $\cos \dfrac{6}{\sqrt{ 52 }}$
@@ -1235,7 +1235,7 @@ b_x & b_y & b_z \\
 c_x & c_y & c_z \\
 \end{vmatrix}$$
 >[!question]- $4i.(2j\times 5k)$ 
- >a)30$\qquad$b)20$\qquad$c)11$\qquad$**d)40**
+>a)30$\qquad$b)20$\qquad$c)11$\qquad$**d)40**
   
 	
 
@@ -1245,7 +1245,7 @@ c_x & c_y & c_z \\
 | Tetrahedron    | $\dfrac{1}{6}[A .(B\times C)]$ | ![[Tetrahedron.png\|center\|250]]                 |     |
 | Parallelepiped | $A .(B\times C)$               | ![[parallelpiped.png\|center\|500]]               |     |
 >[!question]- » Volume of tetrahedron whose vertices are A(0, 0, 0), B(1,1, 0), C(O, 1, 1) and D(1, 0, 1) 
- >**a)**$\dfrac{1}{3}$$\qquad$b)$\dfrac{1}{2}$$\qquad$c)$\dfrac{1}{8}$$\qquad$d)$\dfrac{1}{6}$
+>**a)**$\dfrac{1}{3}$$\qquad$b)$\dfrac{1}{2}$$\qquad$c)$\dfrac{1}{8}$$\qquad$d)$\dfrac{1}{6}$
   
   $AB = i+j;\qquad AC=j+k;\qquad AD=i+k\qquad$ 
 $$\dfrac{1}{6}AB.(AC\times AD)= \dfrac{1}{6}
