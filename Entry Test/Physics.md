@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 # Part 1
 ## 1: Physical Quantities -+
 ![[prefix table.png|center|600]]

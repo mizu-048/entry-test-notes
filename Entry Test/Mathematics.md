@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 
 
 | Law                 | Symbolic Representation                              | Definition                                                                                       |
@@ -5,11 +8,23 @@
 | **Commutative Law** | $a \oplus b = b \oplus a$                            | The order of applying the operation does not affect the result.                                  |
 | **Associative Law** | $(a \oplus b) \oplus c = a \oplus (b \oplus c)$      | The grouping of operands does not affect the result.                                             |
 | **Closure Law**     | $a,b \in S, a \oplus b \in S$ (where $S$ is the set) | The result of applying the operation to two elements from a set is still an element of that set. |
-Supplementary angles: whose sum is 180(degree)
+>[!question]- If A and B are real numbers then A+B is a real number This law is called  
+ >**a)Closure**$\qquad$b)Commutative$\qquad$c)Associative$\qquad$d)Distributive
+  
+**Supplementary angles**: whose sum is 180(degree)
+
+$\sqrt{ n }=\dfrac{n}{\sqrt{ n }};\qquad \dfrac{1}{\sqrt{ n }}=\dfrac{\sqrt{ n }}{n}$
 # Part 1
 ## 1: Number System -+
 - $a + bi = (a,b )$
-- $i^{2n}= -1$ ; $i^{3n}= -i$ ; $i^{4n}= 1$ 
+	- $i^{2n}= -1$ ;
+	- $i^{3n}= -i$ ;
+	- $i^{4n}= 1$ 
+>[!question]- $(-i)^{31}$  
+>**a)**$i$$\qquad$b)$-i$$\qquad$c)1$\qquad$d)-1
+  
+  $(-1)^{31}\times(i)^{30}\times i= (-1)\times(-1)^{15}\times i=i$ -
+  
 - when solving $(a+bi)^{n}$ you can make it  simpler by doing $[(a+bi)^{2}]^{n/2}$
 >[!question]-  $(\frac{1+i}{\sqrt{2}})^8=$ ? 
  >a)$tb$$\qquad$b)$tb$$\qquad$c)$tb$$\qquad$d)$tb$
@@ -17,17 +32,36 @@ Supplementary angles: whose sum is 180(degree)
 
 $\dfrac{[(1+i)^{2}]^{4}}{\sqrt{ 2 }^{8}}=\dfrac{(1+(-1)+2i)^{4}}{16}=\dfrac{16(-1)^{2}}{16}$
 
-- Modulus or Absolute value = $r = \sqrt{a^2 + b^2}$
+- Modulus or Absolute value=$|Z|$ = $r = \sqrt{a^2 + b^2}$
 - argument = $\theta = \tan^{-1}\left(\dfrac{b}{a}\right)$
-- Euler formula and De-Moivre's theorem for complex numbers also called polar forms are: $a + bi = re^{i\theta} = r(Cos\theta + iSin\theta)$
+- theorem for complex numbers also called polar forms are: 
+	- De-moivre's: $(a + bi)^{n} = r^{n}(Cos(n\theta) + iSin (n\theta))$
+	- Euler formula: $re^{i\theta} = r(Cos\theta + iSin\theta)$
+- polar co-ordinates of a point $(r,\theta)$
+
 - $cis\theta = Cos\theta+iSin\theta$
 - $\dfrac{cis(x)}{cis(y)} =cis(x-y)$
 - $(cis\theta)^x= cis(\theta x)$
+  >[!question]- $(\cos 20+i\sin 20)^{5} \div (\cos 30+i\sin 30)^{3}$ 
+ >a)$\cos 20+i\sin 20$$\qquad$b)$\cos 30+i\sin 30$$\qquad$**c)**$\cos 10+i\sin 10$$\qquad$d)$\cos 20-i\sin 20$
+  
 - multiplication of complex numbers 
 $$(a+b i)(c+d i) = (ac-bd)+ (ad+ bc)i$$
-- $C$ is field
-- polar co-ordinates of a point $(r,\theta)$
-- $\dfrac{1}{i}= -i$
+- $Q$ field of rational numbers
+  $C$ is field of complex numbers
+  
+- $\dfrac{1}{i}= -i;\qquad \because \dfrac{i}{i}\times \dfrac{1}{i}=\dfrac{i}{i^{2}}$
+
+- Inverse of $(a, b)$ is: $(\dfrac{a}{a^{2}+b^{2}},\dfrac{-b}{a^{2}+b^{2}})$
+  MCQ
+- Multiplicative Inverse: when multiplied turns the number into 1
+  Additive Inverse: When added turns the number into 0
+  >[!question]- If $a \in R$ then multiplicative inverse of a is 
+ >a)0$\qquad$b)a$\qquad$c)-a$\qquad$**d)**$\dfrac{1}{a}$
+ 
+>[!question]- Additive inverse of (3, 3) in C is
+>a)(3, 0)$\qquad$b)(0, 3)$\qquad$c)(-3, 3)$\qquad$**d)(-3, 3)**
+  
 
 ## 2: Sets and Sub-Sets -+
 - Power of a Set = No. of subsets = $2^{n}$
@@ -203,6 +237,139 @@ a)120$\qquad$b)53$\qquad$***c)29***$\qquad$d)43
 ***a) 1536*** $\qquad$b) 1236 $\qquad$c) 1436$\qquad$d)1336
 - term of GP remain in GP even after reciprocal
 ## 7: Permutation and Combination +
+ - $n! = (n) \times (n-1)!$
+ - ***permutation***: different arrangements of ***n*** numbers taken ***r*** at a time
+   ***Combination***: selection of ***r*** objects from a total of **n** objects, where the order of selection does not matter.
+$$\begin{align}
+   \text{Permutation: \quad} & ^{n}P_{r}= \dfrac{n!}{(n-r)!} = (n)\times(n-1)\times(n-2)\dots (n-(r-1))
+\\ \\
+   e.g. \qquad&^{7}P_{3}= 7\times 6 \times\underbrace{5}_{7-(3-1)}\qquad  \text{ simply write r digits starting from n 5 } 
+\\ \\ \\
+
+   \text{Combination: \quad} & ^{n}C_{r} =\quad \binom{n}{r} = \dfrac{n!}{r!(n-r)!}=  \dfrac{(n)\times(n-1)\times(n-2)\dots (n-(r-1))}{r!}
+
+   \end{align}$$
+ - if in combination or permutation **q*** objects are always included: $^{n-p}C_{r-p}$ or $^{n-q}P_{r-q}$if never included $^{n-p}C_{r}$ or $^{n-q}P_{r}$
+ - 
+
+| $^{n}C_{0} = ^{n}C_{n} = 1$ | $^{n}C_{r} = ^{n}C_{r-1}$ | $^{n}C_{r}.r! = ^{n}P_{r}$ | $^{n}C_{1} = n$ |
+| --------------------------- | ------------------------- | -------------------------- | --------------- |
+| $^{n}P_{n}=n!$              | $^{n}C_{r} = ^{n}C_{n-r}$ |                            |                 |
+- if some object in permutation is being repeated say $p$ times e.g. A,B,B,C,C,C,D (B is repeated 2 times and C 3 times so) then its permutation taking 5 at a time is
+$$
+ \dfrac{^{7}P_{5}}{2! \times 3!} = \dfrac{\dfrac{7!}{(7-5)!}}{2! \times 3!} ={\dfrac{7!}{({2! \times 3!})\times(7-5)!}}
+$$
+
+> [!question]- In how many ways can the letters of the word 'LEADER' be arranged?
+> a)72$\qquad$b)44$\qquad$**c)360**$\qquad$d)72065$\qquad$e)None of these
+
+and 
+
+
+> [!question]- In how many different ways can the letters of the word 'LEADING' be arranged in such a way that the vowels always come together?
+a)360$\qquad$b)480$\qquad$**c)720**$\qquad$d)5040$\qquad$e) None of these
+
+also try for `corporation` , note that $r$ comes twice and o thrice
+> [!question]- How many 3-digit numbers can be formed from the digits 2, 3, 5, 6, 7 and 9 which are divisible by 5 and none of the digits is repeated?
+a)5$\qquad$b)10$\qquad$c)15$\qquad$**d)20**
+
+since divisible by 5, 5 is fixed at the end, no digits repeat so $^{5}p_{2}$ = $5\times 4$since only two places remain,
+
+> [!question]- How many positive integers 'n' can be form using the digits 3, 4, 4, 5, 6, 6, 7, we want 'n' to exceed 60,00,000?
+a)320$\qquad$b)360$\qquad$**c)540**$\qquad$d.720
+
+
+> [!question]- how many natural numbers less than a lakh can be formed with the digits 0, 6 and 9?
+**a)242**$\qquad$b)243$\qquad$c)728$\qquad$d)none  
+
+less than a lakh has 5 digits, each digit can be replaced by 3 possible numbers so $3 \times 3\times 3\times 3\times 3 = 3^{5}$
+excluding 00000, so 243-1=242
+
+
+ - Diagonals in an $n$ sided polygon: $^{n}C_{2} - n$
+ - circular permutation  = $(n-1)!$
+   circular permutation on a flipable ring = $\dfrac{(n-1)!}{2}$
+  
+- common factorials
+
+| 0!  | 1!  | 2!  | 3!  | 4!  | 5!  | 6!  | 7!   |
+| --- | --- | --- | --- | --- | --- | --- | ---- |
+| 1   | 1   | 2   | 6   | 24  | 120 | 720 | 5040 |
+
+- in permutation **order** of elements matters while in combination only the **presence** of an elements matters
+- how to determine whether the question requires permutation or combinations
+### Combination:
+$$\begin{align}
+
+   \text{Combination: \quad} & ^{n}C_{r} =\quad \binom{n}{r} = \dfrac{n!}{r!(n-r)!}
+\end{align}
+$$
+- $^{n}C_{x} = ^{n}C_{y}; \qquad \text{if } x+y = n$
+> [!question]- $^{n}C_{5} = ^{n}C_{4}; \qquad \text{find n}$
+> a)5 $\qquad$**b)9**$\qquad$c)6$\qquad$d)8
+
+- for consecutive $r$'s with same n: $^{n}C_{r}+ ^{n}C_{r-1} = ^{n+1}C_{r}$ keeping the larger $r$
+> [!question]- $^{13}C_{5} + ^{13}C_{7} = \ ?$
+> **a)Both B and C** $\qquad$b)$^{14}C_{6}$$\qquad$c)$^{14}C_{8}$$\qquad$d)$^{14}C_{7}$
+
+solution: $=  ^{13}C_{8} + ^{13}C_{7} \qquad\because \ ^{n}C_{r} + ^{n}C_{n-r}$
+and using above given rule, 8 is higher so we$^{14}C_{8}$ or $^{14}C_{14-8}$ = $^{14}C_{6}$ 
+
+- $^{n}C_{r} \times r!= ^{n}P_{r}$
+> [!question]- $^{n}C_{r} = 28+ ^{n}P_{r} = 112$ then $r!$
+> a)none$\qquad$**b)4** $\qquad$c)12$\qquad$d)2
+
+- $^{n}C_{x} = ^{m}C_{x}$ are equal for all n and m, if $x=0$ as $^{n}C_{0}=1$   
+
+
+
+### Geometrical problems
+- if n is the number of non-collinear points
+$$
+\begin{align}
+^{n}C_{2} = &  \text{ Number of line segments }\\
+ \\
+^{n}C_{2}-n = &  \text{ Number of diagonals}\\
+ \\
+^{n}C_{3} = &  \text{ Number of triangles}\\
+ \\
+^{n}C_{4} = &  \text{ Number of quadrilaterals}\\
+ \\
+^{n}C_{5} = &  \text{ Number of Pentagonals}\\
+
+\end{align}
+$$
+
+> [!question]- Diagonals in 8 sided polygon?
+> a)28$\qquad$b)52 $\qquad$**c)20**$\qquad$d)56
+
+> [!question]- Triangles in pentagon?
+> a)40$\qquad$b)50 $\qquad$**c)10**$\qquad$d)70
+
+$^{5}C_{3}$
+
+| Pecrmutation                                                                                                                                 | Combinations                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Arrangements<br>standing or sitting in row or in a circle<br>problem regarding digits<br>letters(A,B,C...)<br>Formation of words, number,etc | Selection, Choice, Draw,etc<br>Distributation, formation of  a group, commitee, team,etc <br>problem regarding geometry |
+|                                                                                                                                              |                                                                                                                         |
+### Probability:
+- Rules of probability:
+	- Probability of an event =$P(E) =\dfrac{n(E)}{n(S)}= \dfrac{\text{no. favourible outcomes}}{\text{total  outcomes}}$
+	  
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+>[!question]- Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number which is a multiple of 3 or 5?
+>a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{2}{5}$$\qquad$c)$\dfrac{8}{15}$$\qquad$**d)**$\dfrac{9}{20}$
+  
+  $\dfrac{20}{5}=4;\qquad \dfrac{20}{3} \approx 6$  and $15$ which comes with both so  $P=\dfrac{4}{20}+\dfrac{6}{20}-\dfrac{1}{20}$ 
+- blueeeeh:
+	- $P(E)+P\overline{(E)}=1;\qquad P\overline{(E)}=1-P(E)$
+	-  probability can never be greater than 1
+	- Improbability of an event = $P\overline{(E)}$
+>[!question]-  In a box, there are 2 red, 2 blue and 3 green balls. Two balls are picked up randomly. What is the probability that neither is is blue?
+ >a)$\dfrac{10}{21}$$\qquad$b)$\dfrac{11}{21}$$\qquad$c)$\dfrac{2}{7}$$\qquad$d)$\dfrac{5}{7}$
+  
+  Total outcomes: $^{7}C_{2}=21$,probability for NOT BLUE(not including its two balls): $\dfrac{^{7-2}C_{2}}{21}=\dfrac{10}{21}$
+  
 <table style="border: 2px solid #57ffc0; border-collapse: collapse;">
   <tr>
     <th style="background-color: #57ffc0; color: black; border: 2px solid #57ffc0;">Die</th>
@@ -268,130 +435,40 @@ a)120$\qquad$b)53$\qquad$***c)29***$\qquad$d)43
     <td>12</td>
   </tr>
 </table>
+>[!question]-  What is the probability of getting a sum 9 from two throws of a dice?
+ >a)$\dfrac{1}{6}$$\qquad$b)$\dfrac{1}{8}$$\qquad$**c)**$\dfrac{1}{9}$$\qquad$d)$\dfrac{1}{12}$
 
--
+>[!question]- Two dice are tossed. The probability that the total score is a prime number is: 
+ >a)$\dfrac{1}{6}$$\qquad$**b)**$\dfrac{5}{12}$$\qquad$c)$\dfrac{1}{2}$$\qquad$d)$\dfrac{7}{9}$
+  
+  
+- Card in a deck: $52$
+	- Spades, Hearts, Diamonds, Clubs: $(13\times4) =52$ 
+	- Black Cards: 26,   Red Cards: 26
+	- Face Cards: $12$
+	- All Hearts and Diamonds are Red
+	- All Spades and Clubs are Black
+>[!question]- One card is drawn from a pack of 52 cards. What is the probability that the card drawn is either a red card or a king?
+ >a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{6}{13}$$\qquad$**c)**$\dfrac{7}{13}$$\qquad$d)$\dfrac{27}{52}$
+  
+  Red card Prob: $\dfrac{26}{52}$, King Prob: $\dfrac{4}{52}$, Red King Porb: $\dfrac{2}{52}$; Total Prob: $\dfrac{26}{52}+\dfrac{4}{52}-\dfrac{2}{52}=\dfrac{28}{52}=\dfrac{14}{26}=\dfrac{7}{13}$
 - 1/2 Probability of even and odd sum from one or multiple dice rolls
- - $n! = (n) \times (n-1)!$
- - ***permutation***: different arrangements of ***n*** numbers taken ***r*** at a time
-   ***Combination***: selection of ***r*** objects from a total of **n** objects, where the order of selection does not matter.
-$$\begin{align}
-   \text{Permutation: \quad} & ^{n}P_{r}= \dfrac{n!}{(n-r)!} = (n)\times(n-1)\times(n-2)\dots (n-(r-1))
-\\ \\
-   e.g. \qquad&^{7}P_{3}= 7\times 6 \times\underbrace{5}_{7-(3-1)}\qquad  \text{ simply write r digits starting from n 5 } 
-\\ \\ \\
-
-   \text{Combination: \quad} & ^{n}C_{r} =\quad \binom{n}{r} = \dfrac{n!}{r!(n-r)!}=  \dfrac{(n)\times(n-1)\times(n-2)\dots (n-(r-1))}{r!}
-
-   \end{align}$$
- - if in combination or permutation **q*** objects are always included: $^{n-p}C_{r-p}$ or $^{n-q}P_{r-q}$if never included $^{n-p}C_{r}$ or $^{n-q}P_{r}$
- - 
-
-| $^{n}C_{0} = ^{n}C_{n} = 1$ | $^{n}C_{r} = ^{n}C_{r-1}$ | $^{n}C_{r}.r! = ^{n}P_{r}$ | $^{n}C_{1} = n$ |
-| --------------------------- | ------------------------- | -------------------------- | --------------- |
-| $^{n}P_{n}=n!$              | $^{n}C_{r} = ^{n}C_{n-r}$ |                            |                 |
-- if some object in permutation is being repeated say $p$ times e.g. A,B,B,C,C,C,D (B is repeated 2 times and C 3 times so) then its permutation taking 5 at a time is
-$$
- \dfrac{^{7}P_{5}}{2! \times 3!} = \dfrac{\dfrac{7!}{(7-5)!}}{2! \times 3!} ={\dfrac{7!}{({2! \times 3!})\times(7-5)!}}
-$$
-
-> [!question]- In how many ways can the letters of the word 'LEADER' be arranged?
-> a)72$\qquad$b)44$\qquad$**c)360**$\qquad$d)72065$\qquad$e)None of these
-
-and 
-
-
-> [!question]- In how many different ways can the letters of the word 'LEADING' be arranged in such a way that the vowels always come together?
-a)360$\qquad$b)480$\qquad$**c)720**$\qquad$d)5040$\qquad$e) None of these
-
-also try for `corporation` , note that $r$ comes twice and o thrice
-> [!question]- How many 3-digit numbers can be formed from the digits 2, 3, 5, 6, 7 and 9 which are divisible by 5 and none of the digits is repeated?
-a)5$\qquad$b)10$\qquad$c)15$\qquad$**d)20**
-
-since divisible by 5, 5 is fixed at the end, no digits repeat so $^{5}p_{2}$ = $5\times 4$since only two places remain,
-
-> [!question]- How many positive integers 'n' can be form using the digits 3, 4, 4, 5, 6, 6, 7, we want 'n' to exceed 60,00,000?
-a)320$\qquad$b)360$\qquad$**c)540**$\qquad$d.720
-
-
-> [!question]- how many natural numbers less than a lakh can be formed with the digits 0, 6 and 9?
-**a)242**$\qquad$b)243$\qquad$c)728$\qquad$d)none  
-
-less than a lakh has 5 digits, each digit can be replaced by 3 possible numbers so $3 \times 3\times 3\times 3\times 3 = 3^{5}$
-excluding 00000, so 243-1=242
-
-
- - Diagonals in an $n$ sided polygon: $^{n}C_{2} - n$
- - Probability = $\dfrac{\text{no. favourible outcomes}}{\text{total  outcomes}}$
- - circular permutation  = $(n-1)!$
-   circular permutation on a flipable ring = $\dfrac{(n-1)!}{2}$
--  probability can never be greater than 1
-$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
  $P(A \cap B)$ is the probability of an event where both A and B occur, $P(A \cup B)$ is the probability where in a given set either A or B may occur
-- possible outcomes of an experiment with x outcomes performed n times: $x^n$, then probability is $\dfrac{\text{favourable outcomes from } x^n}{x^n}$ like probability of no heads(1 favorable from 2 possible) from a coin (x=2) tossed n times
-- probability of an 
-- common factorials
+- possible outcomes of an experiment with $x$ outcomes performed $n$ times: $x^n$, then probability is $\dfrac{\text{favourable outcomes from } x^n}{x^n}$
+	- Possible outcomes of a coin tossed $n$ times: $2^{n}$
+	- Possible outcomes of a dice rolled $n$ times: $6^{n}$
+>[!question]- In a simultaneous throw of two coins, the probability of getting at least one head is:
+ >a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{1}{3}$$\qquad$c)$\dfrac{2}{3}$$\qquad$**d)**$\dfrac{3}{4}$
 
-| 0!  | 1!  | 2!  | 3!  | 4!  | 5!  | 6!  | 7!   |
-| --- | --- | --- | --- | --- | --- | --- | ---- |
-| 1   | 1   | 2   | 6   | 24  | 120 | 720 | 5040 |
+>[!question]- Four dice are thrown simultaneously. Find the probability that all of them show the same face: 
+ >**a)**$\dfrac{1}{216}$$\qquad$b)$\dfrac{1}{36}$$\qquad$c)$\dfrac{4}{216}$$\qquad$d)$\dfrac{3}{216}$
+ 
+ Total outcomes: $6^{4}$, same face: $\underbrace{ 6 }_{ \text{since they have only 6 faces which should be same} }$ , $P(E)=\dfrac{6}{6^{4}}=\dfrac{1}{6^{3}}=\dfrac{1}{216}$
+  
+$S=\{H H, H T,TH, TT\}$
+- probability of an
 
-- in permutation **order** of elements matters while in combination only the **presence** of an elements matters
-- how to determine whether the question requires permutation or combinations
-### Combination:
-$$\begin{align}
-
-   \text{Combination: \quad} & ^{n}C_{r} =\quad \binom{n}{r} = \dfrac{n!}{r!(n-r)!}
-\end{align}
-$$
-- $^{n}C_{x} = ^{n}C_{y}; \qquad \text{if } x+y = n$
-> [!question]- $^{n}C_{5} = ^{n}C_{4}; \qquad \text{find n}$
-> a)5 $\qquad$**b)9**$\qquad$c)6$\qquad$d)8
-
-- for consecutive $r$'s with same n: $^{n}C_{r}+ ^{n}C_{r-1} = ^{n+1}C_{r}$ keeping the larger $r$
-> [!question]- $^{13}C_{5} + ^{13}C_{7} = \ ?$
-> **a)Both B and C** $\qquad$b)$^{14}C_{6}$$\qquad$c)$^{14}C_{8}$$\qquad$d)$^{14}C_{7}$
-
-solution: $=  ^{13}C_{8} + ^{13}C_{7} \qquad\because \ ^{n}C_{r} + ^{n}C_{n-r}$
-and using above given rule, 8 is higher so we$^{14}C_{8}$ or $^{14}C_{14-8}$ = $^{14}C_{6}$ 
-
-- $^{n}C_{r} \times r!= ^{n}P_{r}$
-> [!question]- $^{n}C_{r} = 28+ ^{n}P_{r} = 112$ then $r!$
-> a)none$\qquad$**b)4** $\qquad$c)12$\qquad$d)2
-
-- $^{n}C_{x} = ^{m}C_{x}$ are equal for all n and m, if $x=0$ as $^{n}C_{0}=1$   
-
-
-
-### Geometrical problems
-- if n is the number of non-collinear points
-$$
-\begin{align}
-^{n}C_{2} = &  \text{ Number of line segments }\\
- \\
-^{n}C_{2}-n = &  \text{ Number of diagonals}\\
- \\
-^{n}C_{3} = &  \text{ Number of triangles}\\
- \\
-^{n}C_{4} = &  \text{ Number of quadrilaterals}\\
- \\
-^{n}C_{5} = &  \text{ Number of Pentagonals}\\
-
-\end{align}
-$$
-
-> [!question]- Diagonals in 8 sided polygon?
-> a)28$\qquad$b)52 $\qquad$**c)20**$\qquad$d)56
-
-> [!question]- Triangles in pentagon?
-> a)40$\qquad$b)50 $\qquad$**c)10**$\qquad$d)70
-
-$^{5}C_{3}$
-
-| Pecrmutation                                                                                                                                 | Combinations                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Arrangements<br>standing or sitting in row or in a circle<br>problem regarding digits<br>letters(A,B,C...)<br>Formation of words, number,etc | Selection, Choice, Draw,etc<br>Distributation, formation of  a group, commitee, team,etc <br>problem regarding geometry |
-|                                                                                                                                              |                                                                                                                         |
-##z 8: Mathematical Induction and Binomial Theorem
+## 8: Mathematical Induction and Binomial Theorem
 ### Mathematical Induction
 - **Use back solving method**
 >[!question]- $1+2+3+4+\dots +(2\times 3^{n-1})=?;\qquad n \in N$
@@ -463,11 +540,11 @@ first make it binomial and it becomes $[(1+x)^{2}]^{4}$
 	- $(a-bx)^{n}:$ it is simply nth position, if $bx$ has a degree of 1
 	- term independent of $x$ means $x^{0}$, where c=0
 >[!question]- Term involving $x^{2}$ in the expansion of $(2x-\dfrac{1}{2x})^{12}$ 
- >a)$tb$$\qquad$b)$tb$$\qquad$c)$tb$$\qquad$d)$tb$
+ >a)$\qquad$b)$\qquad$c)$tb$$\qquad$d)$tb$
 
 here $n=12$, and $t=2$ so $r=\dfrac{12-2}{2}=5$, that means 6th term involves $x^{2}$
 -   
-## Trigonometry
+## 9-14: Trigonometry
 ### 9: Fundamentals of Trigonometry
 
 | System      | units                                    | conversion                                           | definition                                                               |
@@ -724,8 +801,8 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 
 - $\begin{array}{|c|c|} \hline\textbf{Mathematician} & \textbf{Notation} \\ \hline \text{Leibniz} & \dfrac{dy}{dx} or \dfrac{df}{dx} \\ \hline \text{Newton} & \dot{f(x)} \\ \hline \text{Lagrange} & f'(x) \\ \hline \text{Cauchy} & Df(x) \\ \hline \end{array}$
 - $f(x) = aSin(x) + bCos(x)$ has
-  max. value = $\sqrt{a^2+b^2}$
-  min. value = $-\sqrt{a^2+b^2}$ 
+	- max. value = $\sqrt{a^2+b^2}$
+	- min. value = $-\sqrt{a^2+b^2}$ 
 - order of derivative is highest derivative in the equation
   $$\dfrac{d^3y}{dx^3} + \left( \dfrac{xd^2y}{dx^2} \right)^2 + \dfrac{dy}{dx }$$
   has highest order of 3,
