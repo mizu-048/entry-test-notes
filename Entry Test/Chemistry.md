@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 ## 1: Basic Concepts
 - ==percentage by mass of an element in a compounds== = $\dfrac{\text{ mass of element in the compounds}}{ \text{ total mass of compounds }}\times 100$
 - $1 \text{ amu }  = 1.66\times 10^{-27}kg$

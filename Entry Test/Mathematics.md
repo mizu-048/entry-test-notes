@@ -14,6 +14,13 @@ dg-publish: true
 **Supplementary angles**: whose sum is 180(degree)
 
 $\sqrt{ n }=\dfrac{n}{\sqrt{ n }};\qquad \dfrac{1}{\sqrt{ n }}=\dfrac{\sqrt{ n }}{n}$
+- ![[triangle in a triangle.png|center|200]]
+	- ratio of area of ABC to DEF= 1/4
+	- perimeter of ABC to DEF = 1/2
+	- measure of angles of DEF= 60º
+	- all triangles are congruent
+	- ratio of length of AC to DE = 1/2
+	- CDEF form a rhombus
 # Part 1
 ## 1: Number System -+
 - $a + bi = (a,b )$
@@ -132,9 +139,12 @@ $$
 $$
 - Fourth roots of 16 are: $2i,-2i,2,-2$
 - sum of fourth roots is zero
+- A quadratic has a degree of 2, always
 - if $a$ is root of polynomial equation $P(x)$ then $P(a)$ is zero
-- $$
-\begin{align}
+>[!question]-  $x^{4}-9x^{3}+6x^{2}+2$
+>**a)1**$\qquad$b)2$\qquad$c)-2$\qquad$d)-1
+  
+$$\begin{align}
  \\
 \omega^3 = \omega^2 \times \omega \times 1= 1 \\
  \\
@@ -147,7 +157,7 @@ $$
 \omega  = \dfrac{1}{\omega^2};\qquad \omega ^2= \dfrac{1}{\omega} 
 \end{align}$$
 - at the point of intersection of two rays their functions are equal. $ax+by = cx+dy$
-- for $ax^2 + bx +c$ whose roots are $\begin{aligned}\alpha \text{ and }  \beta \end{aligned}$ then$$\begin{align*} S = \alpha + \beta &= -\dfrac{b}{a} \\ P = \alpha \times \beta &= \dfrac{c}{a} \\ ax^2 + bx + c &= x^2 - Sx + P \end{align*}$$
+- for $ax^2 + bx +c$ whose roots are $\begin{aligned}\alpha \text{ and }  \beta \end{aligned}$ then $$\begin{align*} S = \alpha + \beta &= -\dfrac{b}{a} \\ P = \alpha \times \beta &= \dfrac{c}{a} \\ \\ ax^2 + bx + c &= x^2 - Sx + P \end{align*}$$
 >[!question]- If $\alpha$, $\beta$ are roots of $ax^{2}+bx+c=0$, then the equation with roots $\dfrac{1}{\alpha}, \dfrac{1}{\beta}$​ is: 
 >a)$ax^{2}-bx-c=0$$\qquad$b)$cx^{2}+ax+b=0$$\qquad$c)$bx^{2}+ax+c=0$$\qquad$**d)**$cx^{2}+bx+a=0$
 >
@@ -188,7 +198,10 @@ $$
   $G^2 = A \times H$
 - to find d in AP from $a_{x}=m \text{ to } a_{y}=n$
 	  $\dfrac{n-m}{y-x} =d$
-
+- Sum of natural numbers starting from one to n is: $\dfrac{n(n+1)}{2}$
+>[!question]- $\sum ^{100}_{n=2}:?$ 
+  
+  simply do $\sum ^{100}_{n=1}=\dfrac{100(100+1)}{2}=50\times 101=5050$ now just -1 from it since the orignal series starts from 2 ANS: 5049
 ### A.P
 - to find d from $a_{n} = x$ and $a_{m} = y$
 	- $d =\dfrac{(x-y)}{(n-m)}$
@@ -225,6 +238,9 @@ a)120$\qquad$b)53$\qquad$***c)29***$\qquad$d)43
 
 ### G.P
 - for an infinite G.P series$$S_{\infty}=\sum_{n=1}^{\infty} a^n = \dfrac{a}{1 - r} , |r| < 1$$
+>[!question]- $0.1+0.01+0.0001+\dots$ sum to infinity 
+
+$\dfrac{a_{2}}{a_{1}}=r=0.1,\qquad S_{n}=\dfrac{0.1}{1-0.1}=\dfrac{0.1}{0.9}=\dfrac{1}{9}$ 
 - for two terms in GP $a_{n}=x$ and  $a_{m}=y$
 	  $r^{n-m} =(\dfrac{x}{y})$
 	  e.g. $a_{4}=24 \text{ and }a_{7}=192$
@@ -452,7 +468,9 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 >a)$\dfrac{1}{2}$$\qquad$b)$\dfrac{6}{13}$$\qquad$**c)**$\dfrac{7}{13}$$\qquad$d)$\dfrac{27}{52}$
   
   Red card Prob: $\dfrac{26}{52}$, King Prob: $\dfrac{4}{52}$, Red King Porb: $\dfrac{2}{52}$; Total Prob: $\dfrac{26}{52}+\dfrac{4}{52}-\dfrac{2}{52}=\dfrac{28}{52}=\dfrac{14}{26}=\dfrac{7}{13}$
-- 1/2 Probability of even and odd sum from one or multiple dice rolls
+  
+- 1/2 Probability of even and odd **sum** from one or multiple dice rolls$;\qquad \because  \text{one die}\dfrac {3}{6}, \text{two die} \dfrac{18}{36}$
+
  $P(A \cap B)$ is the probability of an event where both A and B occur, $P(A \cup B)$ is the probability where in a given set either A or B may occur
 - possible outcomes of an experiment with $x$ outcomes performed $n$ times: $x^n$, then probability is $\dfrac{\text{favourable outcomes from } x^n}{x^n}$
 	- Possible outcomes of a coin tossed $n$ times: $2^{n}$
@@ -467,6 +485,11 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
   
 $S=\{H H, H T,TH, TT\}$
 - probability of an
+- dependent events:
+  >[!question]- a work is to be and involves 3 steps, step 1 has probability of completion 0.7, step 2 has probability of completion 0.8, step 3 has probability of completion 0.9, total probability of work being done is?
+
+simply multiply them $0.7\times 0.8 \times 0.9$
+  
 
 ## 8: Mathematical Induction and Binomial Theorem
 ### Mathematical Induction
@@ -576,6 +599,10 @@ $(30\times 11)- (10 \times \dfrac{11}{2}) = 275$
 | Tan $\theta$ | Cot $90- \theta$   | ==$cosec^2\theta = \cot^2\theta+1$== | irrelevant                                                                                                                                                           | $\tan 2\theta= \dfrac{2\tan\theta}{1-\tan ^{2}\theta}$                                                                                              | irrelevant                                        | $\tan\left(\dfrac{\theta}{2}\right) = \pm \sqrt{\dfrac{1 - \cos(\theta)}{1 + \cos(\theta)}}$ |
 | Sec $\theta$ | Cosec $90- \theta$ |                                      |                                                                                                                                                                      |                                                                                                                                                     |                                                   |                                                                                              |
 |              |                    |                                      |                                                                                                                                                                      |                                                                                                                                                     |                                                   |                                                                                              |
+>[!question]- $\cos 75$ 
+
+$\cos(45+30)=\cos(30)\times(\cos 45)-\sin(30)\times \sin(45)=(\dfrac{\sqrt{ 3 }}{2}\times \dfrac{1}{\sqrt{2}})-(\dfrac{1}{2}\times \dfrac{1}{\sqrt{ 2 }})=(\dfrac{\sqrt{ 3 }}{2}\times \dfrac{\sqrt{ 2 }}{2})-(\dfrac{1}{2}\times \dfrac{\sqrt{ 2 }}{2})$
+
 - if sum of two angles is 90 then those co ratios are equal
 >[!question]- $\dfrac{\tan 71}{\cot 19}$
 >a)Cot 42$\qquad$**b)Both C and D**$\qquad$c)Cot 45$\qquad$d)Tan 45c
@@ -602,7 +629,9 @@ $=2\cos 15  \sin 15= \sin 30=0.5$
 
 $2(3\sin 10- 4\sin^{3}10)$
 
-
+>[!question]- $\sin\theta=\dfrac{1}{2}\cos ec\theta$ , $\theta$ is
+  
+  $\sin\theta=\dfrac{1}{2}\times \dfrac{1}{\sin\theta}; \qquad\sin\theta =\dfrac{1}{\sqrt{ 2 }}$
 
 - for a right angled triangle
 $Cos\theta = \dfrac{Base}{Hypotenuse}$
@@ -629,12 +658,12 @@ Sin\theta = \dfrac{Prependicular}{Hypotenuse} \\
 
 $$
 
+
 |     | product to sum/diff                                                                                                                            | Sum/diff to product                                                                                                                                                                         |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | sin | $\cos(A) \cos(B) = \dfrac{1}{2} \left( \cos(A+B) + \cos(A-B) \right)$<br>$\cos(A) \sin(B) = \dfrac{1}{2} \left( \sin(A+B) - \sin(A-B) \right)$ | $\sin(A) + \sin(B) = 2 \sin( \dfrac{A+B}{2}) \cos( \dfrac{A-B}{2})$<br>$\sin(A) - \sin(B) = 2 \cos\left( \dfrac{A+B}{2} \right) \sin\left( \dfrac{A-B}{2} \right)$                          |
 | cos | $\sin(A) \sin(B) = \dfrac{1}{2} \left( \cos(A-B) - \cos(A+B) \right)$<br>$\sin(A) \cos(B) = \dfrac{1}{2} \left( \sin(A+B) + \sin(A-B) \right)$ | $\cos(A) + \cos(B) = 2 \cos\left( \dfrac{A+B}{2} \right) \cos\left( \dfrac{A-B}{2} \right)$<br>$\cos(A) - \cos(B) = -2 \sin\left( \dfrac{A+B}{2} \right) \sin\left( \dfrac{A-B}{2} \right)$ |
 |     |                                                                                                                                                |                                                                                                                                                                                             |
-
 
 | $sin(-θ) = -sin(θ)$   | $\cos ec(-θ) = -\cos ec(θ)$ |
 | --------------------- | --------------------------- |
@@ -658,6 +687,9 @@ $$
 | sin(ax) | period = $\dfrac{2\pi}{a}$ |
 | cos(ax) | period = $\dfrac{2\pi}{a}$ |
 | tan(ax) | period = $\dfrac{\pi}{a}$  |
+>[!question]-  period of $\cos bn$
+
+ANS: $\dfrac{2\pi}{b}$  
 - $y=a \sin(bx−c)$
 	**a**:  determines **amplitude**
 	**b**: affects the **period**
@@ -798,15 +830,29 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 - in linear and rational functions $\dfrac{1}{x}$, domain is excluding number that makes the function irrational
   and range has a shortcut if numerator and denominator have linear polynomial functions $\dfrac{P(x)}{Q(x)}$ then exclude ratio of coefficients of x from rangee.g.  $\dfrac{ax+b}{cx+d}$ or $\dfrac{x+1}{x-5}$then Range = $R - \dfrac{a}{c}$ or $R - \{1\}$ or $(-\infty,1)U(1,\infty)$
 ##  2: Differentiation and Derivatives
+- if a third variable is installed, don't use chain rule, simply do $\dfrac{dy}{dx}= \dfrac{\text{y equation}}{\text{x equation}}$, now differentiate separately the numerator and denominator with respect to the third variable and divide 
+>[!question]-  if $y=2at$ and $x=at^{2}$then $\dfrac{dy}{dx}=?$
+>a)$\dfrac{1}{t}$$\qquad$b)$\dfrac{2a}{y}$$\qquad$c)$t$$\qquad$**d)**Both a) and b)
+  
+>[!question]- derivative of $\cos ^{4}x$ with respect to $\sin^{2}x$ is:
 
-- $\begin{array}{|c|c|} \hline\textbf{Mathematician} & \textbf{Notation} \\ \hline \text{Leibniz} & \dfrac{dy}{dx} or \dfrac{df}{dx} \\ \hline \text{Newton} & \dot{f(x)} \\ \hline \text{Lagrange} & f'(x) \\ \hline \text{Cauchy} & Df(x) \\ \hline \end{array}$
-- $f(x) = aSin(x) + bCos(x)$ has
+  
+- For implicit function: $\dfrac{dy}{dx}=-(\dfrac{ \text{Derivative w.r.t x, treating y as constant}}{ \text{Derivative w.r.t y, treating x as constant}})$
+
+- ==important== $\begin{array}{|c|c|} \hline\textbf{Mathematician} & \textbf{Notation} \\  \hline \text{Cauchy} & Df(x) \\  \hline \text{Newton} & \dot{f(x)} \\ \hline \text{Leibniz} & \dfrac{dy}{dx} or \dfrac{df}{dx} \\ \hline \text{Lagrange} & f'(x) \\ \hline \end{array}$
+- $f(x) = aSin(x) + bCos(x)$ ==has==
 	- max. value = $\sqrt{a^2+b^2}$
 	- min. value = $-\sqrt{a^2+b^2}$ 
-- order of derivative is highest derivative in the equation
+- **order of derivative** is highest derivative in the equation
   $$\dfrac{d^3y}{dx^3} + \left( \dfrac{xd^2y}{dx^2} \right)^2 + \dfrac{dy}{dx }$$
   has highest order of 3,
-  degree is the highest power of x, which in this case is 2
+  **degree** is the highest power of x, which in this case is 2
+- a function is:
+	- increasing if $f'(x) > 0$
+	- decreasing if $f'(x) < 0$
+>[!question]- For which of the following intervals is the function $y=x^{2}-6x+5$ Increasing? 
+>a)$1<x<5$$\qquad$b)$x>5$$\qquad$**c)**$x>3$$\qquad$d)$x<1$
+  
 
 | name            |                                                                                           |     |
 | --------------- | ----------------------------------------------------------------------------------------- | --- |
@@ -816,25 +862,44 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 | power rule      | $\dfrac{d}{dx}(x^n) = nx^{n-1}$                                                            |     |
 |                 |                                                                                           |     |
 
-|       | simple                                         | hyperbolic                                        | inverse                                                |
-| ----- | ---------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------ |
-| Sin   | $\dfrac{d}{dx}\sin x = \cos x$                  | $\dfrac{d}{dx}\sinh x = \cosh x$                   | $\dfrac{d}{dx}\sin^{-1} = \dfrac{1}{\sqrt{1-x^2 }}$      |
-| Cos   | $\dfrac{d}{dx}\cos x = -\sin x$                 | $\dfrac{d}{dx}\cosh x =\sinh x$                    | $\dfrac{d}{dx}\cos^{-1} = \dfrac{-1}{\sqrt{1-x^2 }}$     |
-| Tan   | $\dfrac{d}{dx}\tan x = \sec^2 x$                | $\dfrac{d}{dx}\tanh x = \sec h^2 x$                | $\dfrac{d}{dx}\tan^{1} = \dfrac{1}{1+x^2 }$              |
-| Cot   | $\dfrac{d}{dx}\cot x = -\cos ec^2 x$            | $\dfrac{d}{dx}\coth x = -cos ech^2 x$              | $\dfrac{d}{dx}\cot^{-1} = \dfrac{1}{1+x^2 }$             |
-| Cosec | $\dfrac{d}{dx}\cos ec x = -\cos ec\ (x).\cot x$ | $\dfrac{d}{dx}\cosh ec x = -\cosh ec\ (x).\coth x$ | $\dfrac{d}{dx}\cos ec^{-1} = \dfrac{-1}{x\sqrt{1-x^2 }}$ |
-| Sec   | $\dfrac{d}{dx}\sec x = \sec x\tan x$            | $\dfrac{d}{dx}\sec h x = -\sec  h x\tan h x$       | $\dfrac{d}{dx}\sec^{-1} = \dfrac{1}{x\sqrt{1-x^2 }}$     |
+|       | simple                                          | inverse                                                  | hyperbolic                                         |
+| ----- | ----------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------- |
+| Sin   | $\dfrac{d}{dx}\sin x = \cos x$                  | $\dfrac{d}{dx}\sin^{-1} = \dfrac{1}{\sqrt{1-x^2 }}$      | $\dfrac{d}{dx}\sinh x = \cosh x$                   |
+| Cos   | $\dfrac{d}{dx}\cos x = -\sin x$                 | $\dfrac{d}{dx}\cos^{-1} = \dfrac{-1}{\sqrt{1-x^2 }}$     | $\dfrac{d}{dx}\cosh x =\sinh x$                    |
+| Tan   | $\dfrac{d}{dx}\tan x = \sec^2 x$                | $\dfrac{d}{dx}\tan^{1} = \dfrac{1}{1+x^2 }$              | $\dfrac{d}{dx}\tanh x = \sec h^2 x$                |
+| Cot   | $\dfrac{d}{dx}\cot x = -\cos ec^2 x$            | $\dfrac{d}{dx}\cot^{-1} = \dfrac{1}{1+x^2 }$             | $\dfrac{d}{dx}\coth x = -cos ech^2 x$              |
+| Cosec | $\dfrac{d}{dx}\cos ec x = -\cos ec\ (x).\cot x$ | $\dfrac{d}{dx}\cos ec^{-1} = \dfrac{-1}{x\sqrt{1-x^2 }}$ | $\dfrac{d}{dx}\cosh ec x = -\cosh ec\ (x).\coth x$ |
+| Sec   | $\dfrac{d}{dx}\sec x = \sec x\tan x$            | $\dfrac{d}{dx}\sec^{-1} = \dfrac{1}{x\sqrt{1-x^2 }}$     | $\dfrac{d}{dx}\sec h x = -\sec  h x\tan h x$       |
 
-|                                               |                                                           |
-| --------------------------------------------- | --------------------------------------------------------- |
-| $\dfrac{d}{dx}e^x=e^x$                        |                                                           |
-| $\dfrac{d}{dx}e^{f(x)}=e^{f(x)} \times f'(x)$ | $\dfrac{d}{dx}a^{f(x)}=a^{f(x)} \times \ln a\times f'(x)$ |
-|                                               |                                                           |
-|                                               |                                                           |
+- $\log_{a}a=1;\qquad \log_{a}1=0$
+>[!question]-  $\log_{7}^{1}=?$
+  
+  ANS = 0
+
+|                                                                |                                                           |
+| -------------------------------------------------------------- | --------------------------------------------------------- |
+| $\dfrac{d}{dx}e^x=e^x$                                         |                                                           |
+| $\dfrac{d}{dx}e^{f(x)}=e^{f(x)} \times f'(x)$                  | $\dfrac{d}{dx}a^{f(x)}=a^{f(x)} \times \ln a\times f'(x)$ |
+| $\dfrac{d}{dx}(\log_{a}x)=\dfrac{1}{x}\times \dfrac{1}{\ln a}$ |                                                           |
+|                                                                |                                                           |
+|                                                                |                                                           |
+|                                                                |                                                           |
+>[!question]- derivative of $e^{x^{-2}}:$ 
+>a)$-2e^{x^{-2}}$$\qquad$b)$-\dfrac{1}{x^{2}}e^{x^{-1}}$$\qquad$**c)**$-\dfrac{2}{x^{3}}e^{x^{-2}}$$\qquad$d)$e^{x^{-2}}$
+  
+  
+
+>[!question]- Ripples in shape of circles are produced when a stone is thrown in water. If the rate of change of circumference of these circles is $12\pi$, what is the rate of change of Area of the circle when theradius is 3cm?
+>a)$28\pi$$\qquad$b)$36\pi$$\qquad$c)$54\pi$$\qquad$d)$60\pi$
+
+Rate of change of circumference of circle = $\dfrac{dc}{dt}=12\pi$
+Circumference = $C = 2\pi r$
+$\dfrac{dC}{dt}=2\pi \dfrac{dr}{dt};\qquad \dfrac{dr}{dt}=\dfrac{1}{2\pi}(\dfrac{dC}{dt})=\dfrac{1}{2\pi}\times_{1}2\pi=6=$ rate of change of radius
+Area of circle = $A=\pi r^{2};\qquad \dfrac{dA}{dt}=2\pi \dfrac{dr}{dt}=2\pi(3)(6)=36\pi$ 
 
 - LOOK FOR RELATOON BETWEEN MACLAURAN AND GEOMETRIC SERIES AAAAAAAAAAAAAAAAAAH
-## 3: Integeration
-- for any integeral limit of form $\int^{a}_{-a}f'(x) \ dx$
+## 3: Integration
+- for any integral limit of form $\int^{a}_{-a}f'(x) \ dx$
 $$
 \begin{align}
  \text{if } f'(x)  \text{ is odd: }& \qquad = 0 \\
@@ -842,14 +907,12 @@ $$
 \text{if } f'(x)  \text{ is even: }& \qquad = \int^{a}_{0}f'(x) \ dx
 \end{align}
 $$
-$$
-\begin{align}
- \text{If } f'(x) \text{ is odd: } & \quad f'(x) = 0 \\
- \text{If } f'(x) \text{ is even: } & \quad \int_{0}^{a} f'(x) \, dx
-\end{align}
+- in $\int^{b}_{a}f'(x) \ dx$  a and b are range of $f(x)$
+- Integration cancels out derivative: $\int \dfrac{d[f(x)]}{dx}dx=f(x)$
+>[!question]- $\int^{1}_{0}\dfrac{d}{dx}(\sin ^{-1}(\dfrac{x^{2}}{1+2x}))dx$ 
 
-$$
-- in $\int^{b}_{a}f'(x) \ dx$  a and b are range of f(x)
+simply put upper and lower limit: $\sin ^{-1}(\dfrac{(1)^{2}}{1+2(1)})-\sin ^{-1}(\dfrac{(0)^{2}}{1+2(0)})=\sin ^{-1}(\dfrac{1}{3})$ 
+  
 - if we have 
 $$\int \ln[f(x)] f'(x) \ dx \qquad=\qquad f(x)\times[\ln(f(x))-1] + c $$
 - if upper limit is a variable $t$ and lower limit is a constant $a$
@@ -861,6 +924,20 @@ $$\begin{align}
 - order: highest derivative in an equation
 - degree: power of the term with the highest **order**
 - $\int e^{a\times g(x)}(a\times f(x)\ +\ f'(x)) = e^{a\times g(x)}f(x) + c$
+>[!question]- $\int 0 \ dx=$ 
+>a)$x+C$$\qquad$**b)**$C$$\qquad$c)$1+C$$\qquad$d)none
+  
+   $(x \times 0) +C=C$
+
+- $e^{x}$ has same derivative and integral
+ - $\int \dfrac{f'(x)}{f(x)}=\ln(f(x))+C$
+>[!question]- integral of $\dfrac{e^{x}}{e^{x}+1}$ 
+>**a)**$\ln|e^{x}+1|+C$$\qquad$b)$\ln|e^{x}|+C$$\qquad$c)$e^{x}+C$$\qquad$d)none
+
+>[!question]- $\dfrac{6x^{2}+8x+16}{2x^{3}+4x^{2}+16x}$ 
+
+$\ln(2x^{3}+4x^{2}+16x)$
+
 ## 4: Analytical Geometry
 
 - To determine the unknown point in a parallelogram ABCD, D is equal to sum of its adjacent sides A and C, subtracted by B: 
@@ -1054,7 +1131,9 @@ $$
 - if $g^{2} = c$ then circle touches x-axis
   if $f^{2} = c$ then circle touches y-axis
   if $f^{2}=g^{2} = c$ then circle touches both axes
-  ![[mcq touches axis.png]]
+>[!question]- The circle $x^{2}+y^{2}+4x-2y+4=0$ touches___ 
+>a)X-axis$\qquad$b)y-axis$\qquad$c)Both X and Y Axis$\qquad$d)None of the Axis
+  
 - no $xy$ term (product of x and y) is present in equation of circle
 - length of a chord $=2\sqrt{r^2-d^2}$, where d is distance of midpoint of chord from center
 - circle is a special form of ellipse when minor and major axes are equal
@@ -1068,8 +1147,8 @@ r^2=(x_{1}-h)^2 + (y_{1}-k)^2 < 0;& \quad \text{lies inside circle}\\
 r^2=(x_{1}-h)^2 + (y_{1}-k)^2= 0;& \quad \text{lies on circle}\\
 \end{align}
 $$
-- to find the quadrants the circle passes trhough
-	  1.) find centre, this will give one quadrant
+- to find the quadrants the circle passes though
+	  1.) find center, this will give one quadrant
 	  2.) find radius, second quadrant will be the one, which is less than radius
 	  ![[mcq circle quadrant.png]]
 - Circle passes through:
@@ -1104,7 +1183,8 @@ y^{2} =4ax \qquad y^{2} = -4ax \qquad  \text{ are symmetric about x-axis } \\
 x^{2} =4ay \qquad x^{2} = -4ay \qquad  \text{ are symmetric about y-axis }
 \end{align}
 $$
-![[table of parabola.jpg|center|1000]]
+![[table of parabola.jpg|center|800]]
+- the parabola opens where the term with degree 1 points; x-right, -x-left, y-up, -y-down
 
 -   $a$ is called the focal length
 - for form  
@@ -1118,22 +1198,22 @@ $$
 $$
  \dfrac{x^{2}}{a^{2}}+\dfrac{y^{2}}{b^{2}}=1 \qquad 
 $$
-- ![[Table of Ellipse.jpg]]
-- 2a : length of major axis
-- 2b: length of minor axis
-- distance brtween centre and foci: $c = \sqrt{ a^2-b^2}$
-- 2c distance between foci
-- semi major axis means only a, as in half of major axis
-- eq. directrix: x or y = ± a²/c
-- distance b/w directrixes: d= 2a²/c
+- ![[Table of Ellipse.jpg|center|700]]
+- $2a$ : length of major axis
+- $2b$: length of minor axis
+- $c = \sqrt{ a^2-b^2};\qquad$ distance between center and foci:
+- $2c$ distance between foci
+- semi major axis means only $a$, as in half of major axis
+	- eq. directrix: x or y = ± a²/c
+- distance b/w directrices: d= 2a²/c
 - Area: $\pi ab$
 - Perimeter≈ $\pi(a+b)$
-- focal parameter: distance between focus and directrix: b²/c
+- **focal parameter**: distance between focus and directrix: $\dfrac{b^{2}}{c}$
 - in standard form of ellipse $Ax + By^2 + hxy + 2gx + 2fy + c = 0$ if certain conditions are met, of A and B, the bigger can be a² and smaller can be b²
 
 ### Hyperbola: 
 $$
- \dfrac{x^{2}-h}{a^{2}}-\dfrac{y^{2}-k}{b^{2}}=1 \qquad 
+ \dfrac{(x-h)^{2}}{a^{2}}-\dfrac{(y-k)^{2}}{b^{2}}=1 \qquad 
 $$
 - product of distances of foci to any perpendicular is $b^{2}$
 - hyperbola is along the axis which is positive in the equation
