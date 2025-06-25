@@ -20,7 +20,8 @@ $\sqrt{ n }=\dfrac{n}{\sqrt{ n }};\qquad \dfrac{1}{\sqrt{ n }}=\dfrac{\sqrt{ n }
 	- measure of angles of DEF= 60º
 	- all triangles are congruent
 	- ratio of length of AC to DE = 1/2
-	- CDEF form a rhombus
+	- CDEF forms a rhombus
+- 
 # Part 1
 ## 1: Number System -+
 - $a + bi = (a,b )$
@@ -71,7 +72,7 @@ $$(a+b i)(c+d i) = (ac-bd)+ (ad+ bc)i$$
   
 
 ## 2: Sets and Sub-Sets -+
-- Power of a Set = No. of subsets = $2^{n}$
+- Power of a Set = No. of subsets = $2^{n};\qquad n= \text{no. of elements in set}$
 - Absorption Law: $A \cup (A \cap B) = A \cap (A \cup B) = A$
 - $$
 \begin{array}{|c|c|c|c|c|c|c|}
@@ -1107,7 +1108,7 @@ h=0; \ \ A=B: & \qquad \to \text{ Circle }
 \end{align}
 $$
 
-- any point that lies on a line or conic, satisfies its equation, this core concept is used to solve many mcqs
+- any point that lies on a line or conic, satisfies its equation, this core concept is used to solve many mcqs by back solving
 ### circle:
 - $$\begin{align}
  &\text{General Equation: \quad }Ax^2 + By^2+ 2gx + 2fy + c = 0
@@ -1170,10 +1171,11 @@ $$
 \end{align}
 $$
 - length of tangent of circle from $(x_{1},y_{1})$ is done by putting $x=x_{1} \text{ and }y=y_{1}$ in equation of circle and taking square root
+  **CO-EFFICIENT OF $X^{2}$ AND $Y^{2}$ MUST BE ONE**
 $$
  \text{ Length of tangent }=\sqrt{(x_{1}-h)^{2}+(y_{1}-k)^{2}-r^{2} } = \sqrt{ x_{1}^{2}+y_{1}^{2}+2gx_{1}+2fy_{1}+c }
 $$
-- 
+- $x^{2}+y^{2}+4x+2y=0$ from the point P(-1,2)
 ### Parabola:
 $$
 \begin{align}
@@ -1202,14 +1204,22 @@ $$
 - $2a$ : length of major axis
 - $2b$: length of minor axis
 - $c = \sqrt{ a^2-b^2};\qquad$ distance between center and foci:
-- $2c$ distance between foci
+- $2c$ distance between foci  
+	- $c^{2}=a^{2}-b^{2}$
 - semi major axis means only $a$, as in half of major axis
 	- eq. directrix: x or y = ± a²/c
 - distance b/w directrices: d= 2a²/c
 - Area: $\pi ab$
-- Perimeter≈ $\pi(a+b)$
+ - Perimeter≈ $\pi(a+b)$
 - **focal parameter**: distance between focus and directrix: $\dfrac{b^{2}}{c}$
 - in standard form of ellipse $Ax + By^2 + hxy + 2gx + 2fy + c = 0$ if certain conditions are met, of A and B, the bigger can be a² and smaller can be b²
+  
+>[!question]- largest circle inscribed in ellipse $16x^{2}+4y^{2}=64$ 
+>
+
+$=\dfrac{x^{2}}{4}+\dfrac{y^{2}}{16}=1;\qquad a=4,b=2$
+the largest circle **inside** will have radius equal to semi minor axis = b, $\pi r^{2}=\pi(b)^{2}=\pi 2^{2}$
+  
 
 ### Hyperbola: 
 $$
@@ -1260,7 +1270,7 @@ $4x^{2}=y^{2};\qquad y=\pm2x$
 >[!question]- $i+j+k, \ 2i+3j+4k,  \text{ and } 3i+\lambda j+5k$  is a triangle, value of $\lambda$ is:
 >**a)4**$\qquad$b)-4$\qquad$c)2$\qquad$d)-2
   
-- line segment for  origin to point is a position vector
+- line segment from origin to point is a position vector
 - from point to point is a vector
 $$\begin{array}{|c|c|c|c|c|c|}
 \hline
@@ -1273,7 +1283,7 @@ $$\begin{array}{|c|c|c|c|c|c|}
 \end{array}
 $$
 
-- to two vectors are perpendicular and you need to find one of its coordinates, set their dot product equal to zero and solve
+- if two vectors are perpendicular and you need to find one of their coordinates, set their dot product equal to zero and solve
 >[!question]- $a=2\alpha i+j-k$ and $b=i+\alpha j+4k$ , are perpendicular then $\alpha=?$
 >**a)$\dfrac{4}{3}$**$\qquad$b)4$\qquad$c)3$\qquad$d)$\dfrac{5}{3+}$
   
@@ -1284,17 +1294,18 @@ $$
  
  
 
-$\dfrac{3\lambda -2}{\sqrt{ \lambda^{2} }+2}=-\dfrac{8}{\sqrt{ 6 }}$; now just try each option and chose the one that satisfies the equation
+$\dfrac{3\lambda -2}{\sqrt{ \lambda^{2} }+2}=-\dfrac{8}{\sqrt{ 6 }}$; now back solve and chose the one that satisfies the equation
 
 - orthogonal: if two curves are perpendicular
-- $\cos^{2} \alpha + \cos^{2} \beta + \cos^{2}\gamma =1$
-  $\sin^{2} \alpha + \sin^{2} \beta + \sin^{2}\gamma =2$
--  if two vectors $u=ai+bj$ and $v=ci+dj$, then the ratios of coefficient of components in same direction are equal
-		i.e. $\dfrac{a}{c}=\dfrac{b}{d}$
+- for any vector, where $\alpha,\beta \text{ and }\gamma$ are its angles with corresponding axes
+	- $\cos^{2} \alpha + \cos^{2} \beta + \cos^{2}\gamma =1$
+	- $\sin^{2} \alpha + \sin^{2} \beta + \sin^{2}\gamma =2$
+- For any two parallel vectors $u=ai+bj$ and $v=ci+dj$, the ratios of coefficient of corresponding components are equal
+	i.e. $\dfrac{a}{c}=\dfrac{b}{d}$
 >[!question]-  if $u=4i-6j$ and $v=\alpha i-18j$, are parallel then $\alpha$ is:
 >a)4$\qquad$b)6$\qquad$c)8$\qquad$**d)12**
  
- - a vector$u=ai+bj+ck$ is
+ - a vector $u=ai+bj+ck$ is
 	 - is $\sqrt{ a^{2}+b^{2} }$ units away from z-axis
 	 - is $\sqrt{ c^{2}+a^{2} }$ units away from y-axis
 	 - is $\sqrt{ c^{2}+b^{2} }$ units away from x-axis

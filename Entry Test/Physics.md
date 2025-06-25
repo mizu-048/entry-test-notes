@@ -5,7 +5,7 @@ dg-publish: true
 # Part 1
 ## 1: Physical Quantities -+
 ![[prefix table.png|center|600]]
-- 1 Dyne = $10^{-5}$ Newton  dyne is from CGS system and Newton from SI
+- 1 Dyne = $10^{-5}$ Newton;  dyne is from CGS system and Newton from SI
 - Uncertainty error affects precision, not accuracy
 - Least Count measures precision
 - Precision: How detailed a measurement is
@@ -63,10 +63,9 @@ dg-publish: true
 
 | formulae                       | formulae                               | formulae                                  |
 | ------------------------------ | -------------------------------------- | ----------------------------------------- |
-| $S = V_i t + \dfrac{1}{2}at^2$ | $F = ma$                               | $\cos\theta \hat{i} + \sin\theta \hat{j}$ |
 | $V_f = V_i + at$               | $P=mv$                                 | $τ = F \times r$                          |
+| $S = V_i t + \dfrac{1}{2}at^2$ | $F = ma$                               | $\cos\theta \hat{i} + \sin\theta \hat{j}$ |
 | $2aS = V_f^2 - V_i^2$          | $\text{Impulse}=F \times t = \Delta P$ |                                           |
-|                                |                                        |                                           |
 >[!question]- a baseball is hit straight up and is caught 2 seconds later, the maximum height reached is? 
 >**a)4.9m**$\qquad$b)9.8m$\qquad$c)12.6m$\qquad$d)19.6m
 >
@@ -81,8 +80,7 @@ dg-publish: true
 | ---------------------------------------- | -------------------------------------- | ------------------------------------ | ----------------------------------- |
 | $H = \dfrac{V_{\circ}^2Sin^2\theta}{2g}$ | $R = \dfrac{V_{\circ}^2Sin2\theta}{g}$ | $T = \dfrac{2V_{\circ}Sin\theta}{g}$ | $T = \dfrac{V_{\circ}Sin\theta}{g}$ |
 - Height and Range of a projectile become equal at angle $\theta=\tan ^{-1}(4)=75.96^{o}$
-- The range of project at $\theta$ and at $\phi$ are same if $\theta+\phi=90$
-
+- The range of project at $\theta$ and at $\phi$ are same if $\theta+\phi=90,\qquad$e.g. at $60^{o}$ or $30^{o}$
 - at maximum height, the horizontal acceleration becomes zero in projectile motion
 - 
 ## 4: Work and Energy-+
@@ -92,12 +90,12 @@ dg-publish: true
 >[!question]- Under the influence of a force, an object of mass 4 kg accelerates from 3 m/s to 6 m/s in 8s. How much work was done on the object during this time? 
 >**a)54J**$\qquad$b)96J$\qquad$c)72J$\qquad$d)27J
   
-- ==Torque==  $= τ=r⋅F⋅sin(θ)$
+- ==Torque==  $= \tau=r\times F \sin(\theta)$
 >[!question]- If torque produced is $300 Nm$ by force $250 N$ and moment arm $4 m$, then $\theta$ is: 
 >a)73$\qquad$**b)17**$\qquad$c)43$\qquad$d)45
   
-- Power of a motor torque: $P = τ \times \omega$
-- $F\times t= \Delta P=\Delta(mv)$ ( ==impulse== = change in momentum)
+- Power of a motor torque: $P = τ \times \omega;\qquad \omega$ is angular velocity
+- $F\times t= \Delta P=\Delta(mv)$=(==impulse== = change in momentum)
 - centripetal force does no work (angle between force and displacement is 90, $cos90 = 0$) 
 - 1 horse power = 746 watt
 - $1kWh = 3.6 × 10⁶$ joules
@@ -133,12 +131,26 @@ dg-publish: true
 | momentum               | $\vec{p} = m\vec{v}$              | $L = I\omega$                              | $\vec{L} = \vec{r}\times \vec{p}$ |     |
 | force/torque           | $F = ma$                          | $\tau=\vec{r} \times \vec{F} \ sin(θ)$     |                                   |     |
 | Kinetic Energy         | $\dfrac{1}{2} mv^2$               | $\dfrac{1}{2} I\omega^2$                   |                                   |     |
-- $\theta  = \dfrac{S}{r}$,    S is length of the curve, r is the radius
+>[!question]- If a spinning object halves its radius while its angular momentum is conserved, what happens to its angular velocity? 
+>a)2 times$\qquad$**b)4 times**$\qquad$c)halved$\qquad$d)remains same
+  
+  If the radius of an object moving in a circle is halved, its moment of inertia about the center of the circle decreases by a factor of four$_{I =mr^2}$. By conservation of angular momentum ($L=I \omega$), if $I$ becomes $\dfrac{I}{4}$, then $\omega$ must become $4\omega$ to keep $L$ constant.
+  
+- $\theta  = \dfrac{S}{r},\qquad S$ is length of the curve, $r$ is the radius
 - $\theta = \dfrac{\pi}{180}rad.= 0.00175 \ rad.$ OR  $\text{1 rad.} =57.29^\circ = \dfrac{180}{\pi}^\circ$ 
 - Centripetal Force $F_{c} =ma_{c}=\dfrac{mv^2}{r} = mr\omega^2$
   $a_{c} = \dfrac{v^2}{r}$
 - unit of linear momentum = $Ns = Kg \ m \ s ^{-1}$
-- unit of ==angular== momentum = $Js = Kg \ m^2 \ s^{-1}$
+- unit of ==angular== momentum = $Js = Kg \ m^2 \ s^{-1};\qquad P.S: \text{same unit as planck's constant}$
+	- Angular momentum is constant in both speed and direction for: ==constant speed==
+	- Angular momentum is constant in **only** direction for: ==varying speed==
+
+>[!question]- A figure skater spins with her arms pulled in. When she extends her arms, what happens to her angular velocity? 
+>**a)** Her angular velocity decreases because her moment of inertia increases.
+>b)Her angular velocity remains constant as angular momentum is always conserved.
+>c)Her angular velocity decreases because her moment of inertia decreases.
+>d)Her angular velocity increases because her moment of inertia increases.
+  
 
 | shape     | moment of inertia       |                 |
 | --------- | ----------------------- | --------------- |
@@ -189,15 +201,13 @@ written as ==80/120==
 >**a)6 sec**$\qquad$b)$\dfrac{1}{6} sec$$\qquad$c)1 sec$\qquad$d)36 sec
 
 - Apparent gravity
-	descending : $g -a$ : decreased
-	ascending   : $g + a$ : increased 
-
+	- descending : $g -a$ : decreased
+	- ascending   : $g + a$ : increased
 >[!question]- A simple pendulum suspended from the ceiling of a stationary lift has period $T_{o}$ when the lift descends at steady speed the period is $T_{1}$ and when it descends with constant downward acceleration the period is $T_{2}$, which one of the following is correct. 
 >a)$T_{o} = T_{1} = T_{2}$$\qquad$b)$T_{o} < T_{1} < T_{2}$$\qquad$**c)**$T_{o} = T_{1} < T_{2}$$\qquad$d)$T_{o}> T_{1}> T_{2}$
   
->[!question]- a lift is moving upwards with acceleration "a", the time period of a pendulum in the life becomes:
+>[!question]- a lift is moving upwards with acceleration "a", the time period of a pendulum in the lift becomes:
 >a)increased$\qquad$**b)decreased**$\qquad$c)same$\qquad$d)zero
-  
 
 | Extreme Position             | Mean Position               |
 | ---------------------------- | --------------------------- |
@@ -208,18 +218,17 @@ written as ==80/120==
 | Displacement is **maxmimum** | Displacement is **minimum** |
 
 
-| system   | Time period                     | P.E                  | K.E                              | accleration        | Angular Freqeuncy                   | mass and amplitude                                     |     |
-| -------- | ------------------------------- | -------------------- | -------------------------------- | ------------------ | ----------------------------------- | ------------------------------------------------------ | --- |
-| Spring   | $T = 2\pi \sqrt{ \dfrac{m}{k}}$ | $= \dfrac{1}{2}kx^2$ | $= \dfrac{1}{2}k(x_{o}^{2}-x^2)$ | $a=-\dfrac{k}{m}x$ | $2\pi f=\omega=\sqrt{\dfrac{k}{m}}$ | mass **does** affect time period<br>$\sqrt{ m }$ times |     |
-| Pendulum | $T = 2\pi \sqrt{ \dfrac{l}{g}}$ |                      |                                  | $a=-\dfrac{g}{l}x$ | $2\pi f=\omega=\sqrt{\dfrac{g}{l}}$ | **do not** affect time period                          |     |
-|          |                                 |                      |                                  |                    |                                     |                                                        |     |
+| system   | Time period                     | P.E                  | K.E                              | accleration        | Angular Freqeuncy                   | mass and amplitude                                     |
+| -------- | ------------------------------- | -------------------- | -------------------------------- | ------------------ | ----------------------------------- | ------------------------------------------------------ |
+| Spring   | $T = 2\pi \sqrt{ \dfrac{m}{k}}$ | $= \dfrac{1}{2}kx^2$ | $= \dfrac{1}{2}k(x_{o}^{2}-x^2)$ | $a=-\dfrac{k}{m}x$ | $2\pi f=\omega=\sqrt{\dfrac{k}{m}}$ | mass **does** affect time period<br>$\sqrt{ m }$ times |
+| Pendulum | $T = 2\pi \sqrt{ \dfrac{l}{g}}$ |                      |                                  | $a=-\dfrac{g}{l}x$ | $2\pi f=\omega=\sqrt{\dfrac{g}{l}}$ | **do not** affect time period                          |
 - vibratory motion is simple harmonic if angular velocity $\omega$ is uniform
-- projection of a body moving in a circle where r is radius of circle and x is current amplitude
+- projection of a body moving in a circle where $r$ is radius of circle and $x$ is current amplitude
 
 | displacement                                                     | velocity                   | acceleration     |
 | ---------------------------------------------------------------- | -------------------------- | ---------------- |
 | $x = x_{\circ}\sin \omega t$<br>$x = x_{\circ}\cos \omega t$<br> | $v =\omega \sqrt{r^2-x^2}$ | $a = -\omega^2x$ |
-- 
+
 - Initial position
 	- $x = x_{\circ}\sin \omega t$ : mean position
 	- $x = x_{\circ}\cos \omega t$ : extreme position
@@ -252,34 +261,33 @@ $$
 $$
 - speed of sound $\approx 340ms ^{-1}$ and **does not directly depend on pressure
 - $\dfrac{V_{1}}{V_{2}}=\sqrt{ \dfrac{T_{1}}{T_{2}}};\qquad \text{Temp is in Kelvin}$
-  
   $T_{2}=n^{2}\times T_{1};\qquad n=\text{no. of times speed of sound}$ and $T_{2}> T_{1}$ 
 >[!question]-  The temperature at which velocity of sound in air is two times of its velocity at 10°C
 >a)1132°C$\qquad$**b)859°C**$\qquad$c)658K$\qquad$d)900°C
 
 $T_{2}=4\times T_{1}=4\times 283K=1132K=859°C$
 
+- sound has double speed in air at 819°C than it does at 0°C
 
-- $\dfrac{V_{1}}{V_{2}}=\sqrt{ \dfrac{M_{o}}{M_{h}}}$
+- $\dfrac{V_{h}}{V_{o}}=\sqrt{ \dfrac{M_{o}}{M_{h}}}$
 
 >[!question]- Speed of sound in hydrogen, with respect to oxygen: 
->a)2 times$\qquad$b)4 times$\qquad$c)$\dfrac{1}{4}$ times$\qquad$d)$\dfrac{1}{2}\times$
+>a)2 times$\qquad$**b)**4 times$\qquad$c)$\dfrac{1}{4}$ times$\qquad$d)$\dfrac{1}{2}$times
 
 taking molar mass instead of density as they are proportional, $M_{h}=2,\ M_{o}=32$
+
   - rarer to denser: 
 	- reflection: 180 phase shift
 	- refraction: towards normal;    $\lambda$ increases, $v$ increases
-
 - denser to rare: 
 	- reflection: no change in phase angle
 	- refraction: away from normal;    $\lambda$ decreases, $v$ decreases
-
 - Waves are **S**low in **S**hallow(rarer) water and faster in **d**eep (**d**enser) water
 	- going from shallow to deep:      $\lambda$ increases, $v$ increases
 	- going from deep to shallow :    $\lambda$ decreases, $v$ decreases
 
--  Newton: movement of sound through air is **isothermal** (same temperature)
-	  Laplace: movement of sound through air **adiabatic**(no heat transfer out of system) (correct hypothesis)
+-  **Newton**: movement of sound through air is **isothermal** (same temperature)
+	**Laplace**: movement of sound through air **adiabatic**(no heat transfer out of system) (correct hypothesis)
 
 - Sound intensity: power per unit area = $Wm^{-2}$ = Decibels
   Decibels is a logarithmic scale
@@ -287,41 +295,40 @@ taking molar mass instead of density as they are proportional, $M_{h}=2,\ M_{o}=
 - waves transport both energy and momentum
 
 - $\dfrac{C_{p}}{C_{v}}=\gamma=\text{Gas Constant}$
+- monoatomic gases have the highest $\gamma$ at 1.67
 
 - Constructive interference: 
 	- In phase
 	- path difference = $n \lambda;\qquad n=0,\pm 1,\pm 2$
 - Destructive interference: 
 	- Out of phase
-	- path difference = $\underbrace{ (2n+1)\dfrac{\lambda}{2} }_{e.g. \ 1.5, \ 2.5, \dfrac{3}{2}, \ \dfrac{5}{2}, etc};\qquad n=0,\pm 1,\pm 2$
+	- path difference = $\underbrace{ (2n+1)\dfrac{\lambda}{2} }_{e.g. \ 0.5,\ 1.5, \ 2.5, \dfrac{3}{2}, \ \dfrac{5}{2}, etc};\qquad n=0,\pm 1,\pm 2$
 - Entering from one medium to other
 	  Frequency remains same and is **independent of medium**
 	  Velocity and Wavelength are changed
 
 - in **open** pipe: 
 	- at end <mark class="hltr-orange">anti-node</mark> is formed
-	- both odd and even harmonics and hence contains more harmonics
+	- both odd and even harmonics can be made and hence contains more harmonics
 - in a **closed** pipe:
 	- in closed pipe: at end <mark class="hltr-orange">node</mark> is formed
 	- only odd harmonics are present and hence contains less harmonics
 - ratio b/w fundamental frequencies of open and closed end pipes: 1:2
-- monoatomic gases have the highest $\gamma$ at 1.67
+
 - whether you change the frequency or wavelength, the speed of sound in a medium remains same
 - speed of sound increases in air by $0.61m s ^{-1}$ per **1 Kelvin increase**
-- sound has double speed in air at 819°C than it does at 0°C
 - in any wave, crust and trough are separated by half a wave: $\dfrac{\lambda}{2}$
-- Ultrasonic:> 20kHz
+- **Ultrasonic**: >20kHz
 - beats per second:
 	- difference of interfering waves= $f_{2}-f_{1}=beats;\qquad$ where $f_{2}$ is greater
-  
 >[!question]- A tuning fork of frequency 50 Hz when sounded with another fork, 6 beats heard. 
 >a)100Hz$\qquad$b)50Hz$\qquad$**c)44Hz**$\qquad$d)256Hz
 
 
 - Applications of super-position:
 	- Interference:   $f=$ same;    direction=same
-	- Beats:    f=small differences;    direction=same
-	- Stationary waves:    f=same;   direction=opposite
+	- Beats:    $f$=small differences;    direction=same
+	- Stationary waves:    $f$=same;   direction=opposite
 - We can listen a maximum of **10** beats per second
 - $$\begin{align}
  \text{ pitch }\propto  \text{ frequency } \\
@@ -330,7 +337,9 @@ taking molar mass instead of density as they are proportional, $M_{h}=2,\ M_{o}=
 
 ## 9: Optics
 - light rays directly from source are unpolarized and contain both magnetic and electric fields
+- no polarization in longitudinal waves
 - E.F and M.F are always perpendicular
+- $d\sin\theta=m\lambda$
 - a slit produces a bright fringe at the center
 - in refraction: frequency remains unchanged
 - light rays from bulb are spherical
@@ -341,26 +350,32 @@ taking molar mass instead of density as they are proportional, $M_{h}=2,\ M_{o}=
 | --------------- | ---------- | ---------------- |
 | denser to rarer | decreased  | towards normal   |
 | rarer to denser | increased  | away from normal |
-## 10: Heat and Thermodynamics
+## 10: Optical Instruments
+- The final image produced by a compound microscope is ==virtual, inverted, and magnified==
+## 11: Heat and Thermodynamics
 $$
 PV=nRT
 $$
-- Adiabatic: No heat exchange occurs
-  Isothermal: at constant temperature
+- **Adiabatic**: No heat exchange occurs
+  **Isothermal**: at constant temperature
+  **Isobaric**: at constant pressure
 - Work done on an isothermal gas with volume change: $W = nRT \ln\left(\frac{V_1}{V_2}\right)$
 >[!question]-  gas expands isothermally from volume $V_{1} =2V_{1}$​. The work done by the gas is: 
 >a)$RT\ln 2$$\qquad$**b)**$nRT\ln 2$$\qquad$c)$P_{1}V_{1}\ln 2$$\qquad$d)Zero
   
-  Isobaric: at constant pressure
 - entropy is a measure of randomness/disorder
   the more evenly/uniformly distributed heat is in the system, the greater the entropy
-- every natural process moves towards greater entropy(earth quake, floods, melting of ice,etc)
+- every natural process moves towards greater entropy(earth quake, floods, melting of ice, etc)
 - Efficiency of carnot engine: $(1-   \dfrac{\text{T}_{ \text{cold}}}{\text{T}_{ \text{hot}}}) \times 100$; ==temperature in kelvin==
+- Laws of Thermodynamics:
+	- **First Law**: energy cannot be created or destroyed, only transformed from one form to another. 
+	- **Second Law**: the entropy of an isolated system always increases over time, indicating a tendency towards disorder or randomness. 
+	- **Third Law**: entropy of a perfect crystal at absolute zero (0 Kelvin) is zero, meaning a system at absolute zero is in its most ordered state
 # Part 2
 ## 12: Electrostatics+-
 - $\text{vaccum of permitivity = }\varepsilon_{\circ} = 8.85\times 10^{-12} \dfrac{C^2}{Nm^2} = Farad/meter$
 - $k = \dfrac{1}{4\pi \varepsilon_{\circ}} = 9\times 10^{9} \dfrac{Nm^2}{C^2}$
-- if two similarly changed bodies are touched, charged is transferred so that both of them have equal charge e.g.  after touching a 1C and 3C body they both have 2C
+- if two similarly charged bodies are touched, charged is transferred so that both of them have equal charge e.g.  after touching a 1C and 3C body they both have 2C
 - in a medium of permittivity $\varepsilon_{r}$ force between two charges becomes $\dfrac{F_{\circ}}{\varepsilon_{r}}$
 -  a static charge possesses only electric field, but moving/flowing charge possesses both magnetic and electric fields
 
@@ -386,7 +401,7 @@ $$
 | Electric Intensity and Voltage     | $E = - \dfrac{\Delta V}{\Delta r}$                                 |                                                          |
 | Electric potential due to a charge | $V = \dfrac{1}{4\pi \varepsilon_{\circ}} \dfrac{q}{r}$             | $E = \dfrac{1}{4\pi \varepsilon_{\circ}} \dfrac{q}{r^2}$ |
 | Electric Intensity                 | $\vec{E} = k \dfrac{q}{r^2} \hat{r}$                               | $\vec{E} = \dfrac{\vec{F}}{q}$                           |
-| Electric FLux                      | $\phi = \vec{E}.\vec{A_{rea}}$                                     |                                                          |
+| Electric Flux                      | $\phi = \vec{E}.\vec{A_{rea}}$                                     |                                                          |
 * its $t = RC$ seconds for a capacitor to charge up to 63% of its capacitance
 * energy of capacitor in parallel is more than ones in series
 * capacitor holds charge due to *electric fields* and charges due to *electrostatic induction*
@@ -397,17 +412,17 @@ $$
   if same $=\dfrac{C_{1}}{n}$
   
 - if a capacitor has charge Q, then one plate has $Q_+$ and the other $Q_{-}$ i.e. they store 
-- equal and opposite charges
+	- equal and opposite charges
 - direction of electric field outside:$\text{Positive}_{\text{high potential}}\implies \text{Negative}_{\text{low}}$
 ## 13: Current Electricity+-
 - 
 
-| Quantity     | Unit         | relation                                    |
-| ------------ | ------------ | ------------------------------------------- |
+| Quantity     | Unit         | relation                                      |
+| ------------ | ------------ | --------------------------------------------- |
 | Conductance  | mho/siemen   | $\dfrac{1}{ohm}=\dfrac{1}{\text{resistance}}$ |
-| resistance   | ohm          |                                             |
-| Conductivity | mho $m^{-1}$ | $\dfrac{1}{\text{resistivity}}$              |
-| resistivity  | ohm $m^{-1}$ |                                             |
+| resistance   | ohm          |                                               |
+| Conductivity | mho $m^{-1}$ | $\dfrac{1}{\text{resistivity}}$               |
+| resistivity  | ohm $m$      |                                               |
 - drift velocity ≈ $10^{-3}ms^{-1}$ 
 - H = heat = $I^2Rt$
 -  Resistors in series: $R_{eq}=R_{1}+R_{2}$ 
@@ -420,7 +435,7 @@ $$
 | $I = \dfrac{\Delta Q}{\Delta t}$ | current and Charge through an area                              |
 | $R = \rho\dfrac{ L}{A}$          | resistence, length, area and  $\rho$ resistivity of a conductor |
 |                                 |                                                                 |
-- if wire is stretched to n times(its orignal length)then resistence becomes $$R'=n^2R$$
+- if wire is stretched to n times(its orignal length)then ==resistence becomes== $$R'=n^2R$$
 B B ~={red}R=~ O Y ~={green}G=~ ~={blue}B=~ ~={magenta}V=~ ~={yellow}Y=~ W
 0 1 2  3 4  5 6 7 8 9
 
@@ -431,10 +446,13 @@ B B ~={red}R=~ O Y ~={green}G=~ ~={blue}B=~ ~={magenta}V=~ ~={yellow}Y=~ W
 | for parallel | $P = \dfrac{V^2}{R}$                   | ==Lower resistence consumes more power==  |
 |              | $P = VI$                               |                                           |
 |              | $P = \dfrac{\Delta W_{ork}}{\Delta T}$ |                                           |
-- If E is emf of cell, r is internel resistence and IR=V the terminal voltage$$\begin{align*}E = IR + Ir  \\I = \dfrac{E}{R-r}\end{align*}$$
+|              | $P=Fv$                                 |                                           |
+
+- If E is emf of cell, r is internel resistence and IR=V the terminal voltage$$\begin{align*}E = IR + Ir  \\I = \dfrac{E}{R+r}\end{align*}$$
 ## 14: ElectroMagnetism+-
-- current through two parallel wires
-  if same direction attract, if opposite repel
+- ==current through two parallel wires==
+	- if **same** direction: attract
+	- if **opposite** direction: repel
 - permeability of free space: $\mu_{\circ} = 4\pi \times 10^{-7} \dfrac{Wb}{Am}$
 
 
@@ -451,7 +469,6 @@ B B ~={red}R=~ O Y ~={green}G=~ ~={blue}B=~ ~={magenta}V=~ ~={yellow}Y=~ W
 | ------------------------------------------------------------------- | ----------------------------------------- | ------------------------ |
 | Flux                                                                | $wb=Tm^2  = NA^{-1}m^-1$                  | $\phi = BA  \ Cos\theta$ |
 | Flux Density<br>Magnetic Field Strength<br>Magnetic Field Induction | $\dfrac{wb}{m^2}$= $T_{elsa}  = NA^{-1}m$ | $B$                      |
-|                                                                     |                                           |                          |
 
 |                                          |                                                        |                                                                           |
 | ---------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------- |
@@ -467,13 +484,20 @@ B B ~={red}R=~ O Y ~={green}G=~ ~={blue}B=~ ~={magenta}V=~ ~={yellow}Y=~ W
   
 - Lorentz Force = **Vector** sum of magnetic and electric forces 
   = $\sqrt{[q(V\times B)]^2 + (qE)^2} = \sqrt{{F_{e}}^2+{F_{m}}^2}$
-- a charge moving in a straight line prependicular to a magnetic field moves in a circle
-- if field into the page charge(+ve) will move counterclockwise (using right hand rule)
+
+| law                       | based on law of            |
+| ------------------------- | -------------------------- |
+| Electromagnetic Induction | Conservation of **energy** |
+|                           |                            |
+
+- a charge moving in a straight line perpendicular to a magnetic field moves in a circle
+	- a charge moving at an angle between 0 and 9 moves in an elliptical path
+- if field into the page charge(+ve) will move clockwise (using right hand rule)
 - a charge in an electric field moves towards the oppositely charged site
 - galvano meter only **detects** currents, not measure it
 ## 15: ElectroMagnetic Induction-+
 - Transformer only works for A.C, not for DC(dry cell, battery, etc)
-- ohm law(V=IR) does not apply on inductors
+- ohm law(V=IR) does not apply on inductors only resistors
 - Induced emf depends on change of flux
   but magnitude of induced emf depends on rate of change of flux
 - $\dfrac{N_{s}}{N_{p}}\text{ is the transformer ratio, not } \dfrac{N_{p}}{N_{s}}$
@@ -482,9 +506,9 @@ B B ~={red}R=~ O Y ~={green}G=~ ~={blue}B=~ ~={magenta}V=~ ~={yellow}Y=~ W
   Step down: $N_{s} < N_{p}$
 - A.C generator: Slip Rings
   D.C generator: Split Rings
-- dynamo(A.C generator) converts: mechanical energy into electric
+- ==dynamo==(A.C generator) converts: mechanical energy into electric
 - Induced emf sometimes acts as back emf
-- Induced emf does not depend on resistence of coil but induced current does
+- Induced emf does not depend on resistance of coil but induced current does
 - if there are x cycles in A.C of f hertz, then
   current change direction 2x times
   current reaches max. 2x times
@@ -533,7 +557,7 @@ $$
 | Modulation           | combining high freq radio wave and low freq signal           |                            | <br>                                |                  |
 | Amplitude Modulation | combining amplitude of high freq. and amplitude of low freq. | 540 kHz to 1600 kHz        | long range                          | easily distorted |
 | Frequency Modulation | combining freq. of high freq. and amplitude of low freq.     | 88 MHz to 108 MHz          | immunity  to electrical disturbance | small range      |
-- RLC circuit behave s like an~={green} RC=~ circuit at ~={green}low frequency=~
+- RLC circuit behaves like an~={green} RC=~ circuit at ~={green}low frequency=~
   RLC circuit behaves like an ~={blue}RL=~ circuit at ~={blue}high frequency=~
   RLC circuit behaves like an R circuit at resonance frequency( power factor = 1)
 - at resonace frequency($R_{L} =R_{C}$): $Z = R$
@@ -545,17 +569,17 @@ $$
   as wavelength decreases/freq. increase  particle nature increase
 ![[spectrum.png|700]]
 ![[simple wavelength spectrum.png]]
-- static charge: ~={yellow}only E.F=~
- moving charge: ~={yellow}both E.F and M.F=~ but no E.M wave
- accelerating charge: ~={yellow}changing E.F, M.F and E.M waves=~
+- static charge: **only E.F**
+ moving charge: **both E.F and M.F** but no E.M wave
+ accelerating charge: **changing E.F, M.F and E.M waves**
  - choke is used to control flow of A.C
- - maxwell's formula for speed of light
+ - Maxwell's formula for speed of light
 $$
 c = \dfrac{1}{\sqrt{\mu_0 \epsilon_0}}
 $$
 where:
-- $mu_0$ is the permeability of free space
-- $\epsilon_0$ is the permittivity of free spac
+- $u_0$ is the permeability of free space
+- $\epsilon_0$ is the permittivity of free space
 ## 17: Physics of Solids-+
 - hook's law is constant so wherever it is obeyed the graph between stress and strain will be a straight line
 -  strain is : $\dfrac{L_{o}}{\Delta L}$ so doubling the length will have a strain of 1
