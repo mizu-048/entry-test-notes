@@ -4,7 +4,7 @@ dg-publish: true
 
 # Part 1
 ## 1: Physical Quantities -+
-![[Notes/a/attachments/prefix table.png|center|600]]
+![[Notes/Entry Test/attachments/prefix table.png|center|600]]
 - 1 Dyne = $10^{-5}$ Newton;  dyne is from CGS system and Newton from SI
 - Uncertainty error affects precision, not accuracy
 - Least Count measures precision
@@ -27,7 +27,7 @@ dg-publish: true
 
 ## 2: Vectors -
 
-![[Notes/a/attachments/3d axes.png|center|400]]
+![[Notes/Entry Test/attachments/3d axes.png|center|400]]
 - resolving = splitting into components
 - minimum no. components = 2
 - maximum no. components = $\infty$
@@ -160,10 +160,10 @@ dg-publish: true
 
 | shape     | moment of inertia       |                 |
 | --------- | ----------------------- | --------------- |
-| rod       | $I = \dfrac{1}{12}mL^2$ | ![[Notes/a/attachments/rod.png]]    |
-| Hoop/ring | $I = mr^2$              | ![[Notes/a/attachments/loop.png]]   |
-| disc      | $I = \dfrac{1}{2}mr^2$  | ![[Notes/a/attachments/disk.png]]   |
-| sphere    | $I = \dfrac{2}{5}mr^2$  | ![[Notes/a/attachments/sphere.png]] |
+| rod       | $I = \dfrac{1}{12}mL^2$ | ![[Notes/Entry Test/attachments/rod.png]]    |
+| Hoop/ring | $I = mr^2$              | ![[Notes/Entry Test/attachments/loop.png]]   |
+| disc      | $I = \dfrac{1}{2}mr^2$  | ![[Notes/Entry Test/attachments/disk.png]]   |
+| sphere    | $I = \dfrac{2}{5}mr^2$  | ![[Notes/Entry Test/attachments/sphere.png]] |
 - pseudo force: arises without any contact e.g.  Centrifugal force
 - Apparent weight 
 	falling down: $T = m(g-a)$ = original weight - upward force
@@ -583,8 +583,8 @@ $$
   Radio waves  have a prominent wave nature
   Gamma rays have a prominent particle nature
   as wavelength decreases/freq. increase  particle nature increase
-![[Notes/a/attachments/spectrum.png|700]]
-![[Notes/a/attachments/simple wavelength spectrum.png]]
+![[Notes/Entry Test/attachments/spectrum.png|700]]
+![[Notes/Entry Test/attachments/simple wavelength spectrum.png]]
 - static charge: **only E.F**
  moving charge: **both E.F and M.F** but no E.M wave
  accelerating charge: **changing E.F, M.F and E.M waves**
@@ -620,7 +620,7 @@ where:
 -  hence steel has more elasticity than rubber
   $$\text{Elasticity} \propto \text{Rigidity} \propto \dfrac{1}{compressibility}$$
 - ==Area of Stress-Strain curve has units of energy density==
-  ![[Notes/a/attachments/stress-strain.png|200]]
+  ![[Notes/Entry Test/attachments/stress-strain.png|200]]
   $$\text{Area} = \dfrac{1}{2}xy = \dfrac{1}{2}\dfrac{F}{A}\times \dfrac{\Delta L}{L_{o}}= \dfrac{1}{2}\dfrac{F\times \Delta L}{A\times L} = \dfrac{1}{2} \dfrac{ \text{Work}}{ \text{Volume}} = \text{Energy Density}$$
   
 

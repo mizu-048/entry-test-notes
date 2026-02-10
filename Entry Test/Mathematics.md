@@ -14,7 +14,7 @@ dg-publish: true
 **Supplementary angles**: whose sum is 180(degree)
 
 $\sqrt{ n }=\dfrac{n}{\sqrt{ n }};\qquad \dfrac{1}{\sqrt{ n }}=\dfrac{\sqrt{ n }}{n}$
-- ![[Notes/a/attachments/triangle in a triangle.png|center|200]]
+- ![[Notes/Entry Test/attachments/triangle in a triangle.png|center|200]]
 	- ratio of area of ABC to DEF= 1/4
 	- perimeter of ABC to DEF = 1/2
 	- measure of angles of DEF= 60º
@@ -802,7 +802,7 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 | sin                                 | cos                                       | tan                                       |
 | ----------------------------------- | ----------------------------------------- | ----------------------------------------- |
 | $\sin= \dfrac{\text{perp.}}{hypo.}$ | $\cos= \dfrac{\text{base}}{\text{hypo.}}$ | $\tan= \dfrac{\text{base}}{\text{perp.}}$ |
-| ![[Notes/a/attachments/CNX_Calc_Figure_07_03_001.jpg]]  | ![[Notes/a/attachments/Pasted image 20250605212455.png]]      | ![[Notes/a/attachments/CNX_Calc_Figure_07_03_004.jpg]]        |
+| ![[Notes/Entry Test/attachments/CNX_Calc_Figure_07_03_001.jpg]]  | ![[Notes/Entry Test/attachments/Pasted image 20250605212455.png]]      | ![[Notes/Entry Test/attachments/CNX_Calc_Figure_07_03_004.jpg]]        |
 | base= $\sqrt{ a-x^{2} }$            | perp. = $\sqrt{ a+x^{2} }$                | hypo. = $\sqrt{ 1+x^{2} }$                |
 >[!question]- $\tan^{-1}x$ in terms of $\arccos:$ 
 >a)$\cos^{-1}\sqrt{ 1+x^{2} }$$\qquad$**b)$\cos^{-1} \dfrac{1}{\sqrt{ 1+x^{2} }}$**$\qquad$c)$\cos^{-1} \dfrac{1}{\sqrt{ 1-x^{2} }}$$\qquad$d)$\cos^{-1}\sqrt{ 1-x^{2} }$
@@ -1011,12 +1011,12 @@ $$\begin{aligned}
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------- | --- |
 | distance                        | $d = \|AB\| = \sqrt{(x_{2}-x_{1})^{2}+ (y_{2}-y_{1})^{2}}$                                                                                                                           | distance between two points                                      |                                                |     |
 | midpoint                        | $\left( \dfrac{x_{2}+x_{1}}{2},\dfrac{y_{2}+y_{1}}{2} \right)$                                                                                                                       | the point in the middle of 2 points                              |                                                |     |
-| division of line internally     | $P = \left( \dfrac{k_{2} x_1 + k_{1} x_2}{k_{1} + k_{2}}, \dfrac{k_{2} y_1 + k_{1} y_2}{k_{1} + k_{2}} \right)$<br>$m=k_{1}$, $n=k_{2}$                                              | P is the position vector of the point                            | ![[Notes/a/attachments/dividing line internally.png\|center\|350]] |     |
+| division of line internally     | $P = \left( \dfrac{k_{2} x_1 + k_{1} x_2}{k_{1} + k_{2}}, \dfrac{k_{2} y_1 + k_{1} y_2}{k_{1} + k_{2}} \right)$<br>$m=k_{1}$, $n=k_{2}$                                              | P is the position vector of the point                            | ![[Notes/Entry Test/attachments/dividing line internally.png\|center\|350]] |     |
 | division of line externally     | $P = \left( \dfrac{k_{2} x_1 - k_{1} x_2}{k_{1} - k_{2}}, \dfrac{k_{2} y_1 - k_{1} y_2}{k_{1} - k_{2}} \right)$                                                                      | P is the position vector where of the point                      |                                                |     |
 | distance between point and line | $d = \dfrac{\|ax_{1}+by_{1}+c\|}{\sqrt{a^{2} +b^{2}}}$                                                                                                                               | where $ax + by + c$ is the line<br>$P(x_{1},y_{1})$ is the point |                                                |     |
 | slope                           | $\tan \theta=m=(\dfrac{y_{2}-y_{1}}{x_{2}-x_{1}})$                                                                                                                                   | the tangent of inclination(θ)                                    |                                                |     |
-| ==Centroid of triangle==        | ==$( \dfrac{x_{1}+x_{2}+x_{3}}{3}, \dfrac{y_{1}+y_{2}+y_{3}}{3})$==                                                                                                                  |                                                                  | ![[Notes/a/attachments/centroid.png\|center\|350]]                 |     |
-| in-center of a triangle         | $(\dfrac{a x_1 + b x_2 + c x_3}{a + b + c},\dfrac{a y_1 + b y_2 + c y_3}{a + b + c})$<br><br>where $x_{1},x_{2},x_{3}\dots$ are coordinates of the corner points and a,b,c the sides | from bisector of the angles                                      | ![[Notes/a/attachments/in-circle.png\|center\|300]]                |     |
+| ==Centroid of triangle==        | ==$( \dfrac{x_{1}+x_{2}+x_{3}}{3}, \dfrac{y_{1}+y_{2}+y_{3}}{3})$==                                                                                                                  |                                                                  | ![[Notes/Entry Test/attachments/centroid.png\|center\|350]]                 |     |
+| in-center of a triangle         | $(\dfrac{a x_1 + b x_2 + c x_3}{a + b + c},\dfrac{a y_1 + b y_2 + c y_3}{a + b + c})$<br><br>where $x_{1},x_{2},x_{3}\dots$ are coordinates of the corner points and a,b,c the sides | from bisector of the angles                                      | ![[Notes/Entry Test/attachments/in-circle.png\|center\|300]]                |     |
 |                                 |                                                                                                                                                                                      |                                                                  |                                                |     |
 
 $$\begin{align}
@@ -1114,7 +1114,7 @@ $$
 - 
 ## 6: Conic Section
 
-![[Notes/a/attachments/conic section gif.gif|center|400]]
+![[Notes/Entry Test/attachments/conic section gif.gif|center|400]]
 $$
   \text{ Circle: }x^{2}+y^{2}=1 \qquad \text{ Ellipse: }\dfrac{x^{2}}{a^{2}}+\dfrac{y^{2}}{b^{2}}=1 \qquad \text{ Hyperbola: } \dfrac{x^{2}}{a^{2}}-\dfrac{y^{2}}{b^{2}}=1 \qquad  \text{ Parabola: }y^{2}=4ax
 $$
@@ -1230,7 +1230,7 @@ y^{2} =4ax \qquad y^{2} = -4ax \qquad  \text{ are symmetric about x-axis } \\
 x^{2} =4ay \qquad x^{2} = -4ay \qquad  \text{ are symmetric about y-axis }
 \end{align}
 $$
-![[Notes/a/attachments/table of parabola.jpg|center|800]]
+![[Notes/Entry Test/attachments/table of parabola.jpg|center|800]]
 - the parabola opens where the term with degree 1 points; x-right, -x-left, y-up, -y-down
 
 -   $a$ is called the focal length
@@ -1245,7 +1245,7 @@ $$
 $$
  \dfrac{x^{2}}{a^{2}}+\dfrac{y^{2}}{b^{2}}=1 \qquad 
 $$
-- ![[Notes/a/attachments/Table of Ellipse.jpg|center|700]]
+- ![[Notes/Entry Test/attachments/Table of Ellipse.jpg|center|700]]
 - $2a$ : length of major axis
 - $2b$: length of minor axis
 - $c = \sqrt{ a^2-b^2};\qquad$ distance between center and foci:
@@ -1281,7 +1281,7 @@ $$
 - Length of latus-rectum: = $\dfrac{2b^{2}}{a}$
 - Length of traverse axis(where vertices lie): 2a
 - Length of conjugate axis(where co-vertices lie): 2b
-- ![[Notes/a/attachments/table of hyoerbola.jpg|center|600]]
+- ![[Notes/Entry Test/attachments/table of hyoerbola.jpg|center|600]]
 >[!question]- $\dfrac{(x-2)^{2}}{9}-\dfrac{(y+1)^{2}}{16}=1$ 
  
  Center = (2,-1)
@@ -1375,9 +1375,9 @@ c_x & c_y & c_z \\
 
 | Volume of      | formula                        | diagram                                           |     |
 | -------------- | ------------------------------ | ------------------------------------------------- | --- |
-| Parallelogram  | $A\times B$                    | ![[Notes/a/attachments/Cross_product_parallelogram.svg\|center\|200]] |     |
-| Tetrahedron    | $\dfrac{1}{6}[A .(B\times C)]$ | ![[Notes/a/attachments/Tetrahedron.png\|center\|250]]                 |     |
-| Parallelepiped | $A .(B\times C)$               | ![[Notes/a/attachments/parallelpiped.png\|center\|500]]               |     |
+| Parallelogram  | $A\times B$                    | ![[Notes/Entry Test/attachments/Cross_product_parallelogram.svg\|center\|200]] |     |
+| Tetrahedron    | $\dfrac{1}{6}[A .(B\times C)]$ | ![[Notes/Entry Test/attachments/Tetrahedron.png\|center\|250]]                 |     |
+| Parallelepiped | $A .(B\times C)$               | ![[Notes/Entry Test/attachments/parallelpiped.png\|center\|500]]               |     |
 >[!question]- » Volume of tetrahedron whose vertices are A(0, 0, 0), B(1,1, 0), C(O, 1, 1) and D(1, 0, 1) 
 >**a)**$\dfrac{1}{3}$$\qquad$b)$\dfrac{1}{2}$$\qquad$c)$\dfrac{1}{8}$$\qquad$d)$\dfrac{1}{6}$
   
