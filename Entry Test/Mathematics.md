@@ -14,7 +14,7 @@ dg-publish: true
 **Supplementary angles**: whose sum is 180(degree)
 
 $\sqrt{ n }=\dfrac{n}{\sqrt{ n }};\qquad \dfrac{1}{\sqrt{ n }}=\dfrac{\sqrt{ n }}{n}$
-- ![[triangle in a triangle.png|center|200]]
+- ![[Notes/a/attachments/triangle in a triangle.png|center|200]]
 	- ratio of area of ABC to DEF= 1/4
 	- perimeter of ABC to DEF = 1/2
 	- measure of angles of DEF= 60º
@@ -31,11 +31,11 @@ $\sqrt{ n }=\dfrac{n}{\sqrt{ n }};\qquad \dfrac{1}{\sqrt{ n }}=\dfrac{\sqrt{ n }
 >[!question]- $(-i)^{31}$  
 >**a)**$i$$\qquad$b)$-i$$\qquad$c)1$\qquad$d)-1
   
-  $(-1)^{31}\times(i)^{30}\times i= (-1)\times(-1)^{15}\times i=i$ -
+  $(-i)^{31}=(-1)^{31}\times(i)^{30}\times i= (-1)\times(-1)^{15}\times i=i$ -
   
 - when solving $(a+bi)^{n}$ you can make it  simpler by doing $[(a+bi)^{2}]^{n/2}$
 >[!question]-  $(\frac{1+i}{\sqrt{2}})^8=$ ? 
->a)$tb$$\qquad$b)$tb$$\qquad$c)$tb$$\qquad$d)$tb$
+>a)$\qquad$b)$tb$$\qquad$c)$tb$$\qquad$d)$tb$
   m
 
 $\dfrac{[(1+i)^{2}]^{4}}{\sqrt{ 2 }^{8}}=\dfrac{(1+(-1)+2i)^{4}}{16}=\dfrac{16(-1)^{2}}{16}$
@@ -74,10 +74,10 @@ $$(a+b i)(c+d i) = (ac-bd)+ (ad+ bc)i$$
 ## 2: Sets and Sub-Sets -+
 - Power of a Set = No. of subsets = $2^{n};\qquad n= \text{no. of elements in set}$
 - Absorption Law: $A \cup (A \cap B) = A \cap (A \cup B) = A$
-- $$
+$$
 \begin{array}{|c|c|c|c|c|c|c|}
 \hline
- &  &  \text{ AND }  &  \text{ OR }  &  \text{ NOT } &   \text{ 2nd should not be false while first is true } & XOR  \\
+ &  &  \text{ AND }  &  \text{ OR }  &  \text{ NOT } &   \text{ 2nd should not be false while first is true } & XNOR  \\
 \hline
 
 P & Q & P \land Q \text{ (Conjunction)} & P \lor Q \text{ (Disjunction)} & \neg P \text{ (Negation)} & P \rightarrow Q \text{ (Implication)} & P \leftrightarrow Q \text{ (Biconditional)} \\
@@ -87,9 +87,10 @@ P & Q & P \land Q \text{ (Conjunction)} & P \lor Q \text{ (Disjunction)} & \neg 
 \text{False} & \text{True} & \text{False} & \text{True} & \text{True}  & \text{True}  & \text{False}  \\
 \text{False} & \text{False} & \text{False} & \text{False} & \text{True}  & \text{True}  & \text{True}  \\
 \hline
-\end{array}$$
--  A\B = A-B;         A$'$ = U-A
-
+\end{array}
+$$
+- $A' =U-A$;$\qquad$all the elements that are **not** in A
+-  A\B = $A \cap B'=A-B;\qquad B' = U-B;\qquad$ where A\B means all that elements that are in A but not in B
 -  $(A \cup B)' = A' \cap B'$
   $(A \cap B)' = A' \cup B'$
   
@@ -111,7 +112,7 @@ P & Q & P \land Q \text{ (Conjunction)} & P \lor Q \text{ (Disjunction)} & \neg 
 | Subset   | A ⊆ B    | all elements of A are in B                           |
 | Superset | B ⊃ A    | B has every element of A(basically A is subset of B) |
 
-- if A is a set, |A| represents the number of elements in A
+- if $A$ is a set, $|A|$ represents the number of elements in $A$
 - $\lvert A \cup B \rvert = \lvert A \rvert + \lvert B \rvert - \lvert A \cap B \rvert$
 - $\text{ Probability }=P(A) = \frac{\text{Number of favorable outcomes for event } A}{\text{Total number of possible outcomes}}$
 - $P(A∣B)= P(B) P(B∣A)P(A)$
@@ -169,15 +170,14 @@ $$\begin{align}
 >[!question]- System of equations: $\begin{cases} 3x + 2y = 0 \\ x + 2y = 0 \end{cases}$ has
 >**a)Trivial Solution**$\qquad$b)Non-Trivial Solution$\qquad$c)infinite solutions$\qquad$d)none
  
- since $$ \begin{align}
+ since
+  $$ \begin{align}
  \begin{vmatrix} 
  {{3}} & {{2}} \\ 
  {{1}} & {{2}}
  \end{vmatrix} = & \ 6 -4= 4 \\ 4  & \neq 0
 \end{align}
  $$
- -  
-  
 ## 6: Sequences and Series+ 
 - $$
 \begin{array}{|c|c|c|c|c|}
@@ -215,15 +215,15 @@ $$
 > a)100$\qquad$b)102$\qquad$**c)98**$\qquad$d) none
 
 - $a_{n} = a_{1}+(n-1)d$
-	  $n=\dfrac{a_{n}+a_{1}}{d}+1$
+	  $n=\dfrac{a_{n}-a_{1}}{d}+1$
 > [!question]- which term is 148, in A.P -2, 4, 10...
-> **a)26th**$\qquad$b)25th$\qquad$**c)31th**$\qquad$d) 28th
+> **a)26th**$\qquad$b)25th$\qquad$c)31th$\qquad$d) 28th
 
 - $A_{m} = a+\dfrac{m(b-a)}{(n+1)}$
 	- m = AM to be found
 	- n = Total number of AMs
 > [!question]- if there are 6 AM b/w 2 and 5 then $A_{5}$ is:
-> **a)$\dfrac{26}{7}$th**$\qquad$b)$\dfrac{6}{5}$th$\qquad$c)$\dfrac{29}{7}$th$\qquad$d) $\dfrac{31}{7}$th
+> a)$\dfrac{26}{7}$th$\qquad$b)$\dfrac{6}{5}$th$\qquad$**c)**$\dfrac{29}{7}$th$\qquad$d) $\dfrac{31}{7}$th
 - $a_{n} =S_{n}-S_{n-1}$    for all A.P
 	- $a_{5} =S_{5}-S_{4}$
 > [!question]- If $S_{n} = 2n^{2} -n$ then $a_{8} =?$
@@ -247,7 +247,7 @@ $\dfrac{a_{2}}{a_{1}}=r=0.1,\qquad S_{n}=\dfrac{0.1}{1-0.1}=\dfrac{0.1}{0.9}=\df
 	  e.g. $a_{4}=24 \text{ and }a_{7}=192$
 	  $r^{7-4}=r^{3}=\dfrac{192}{24}=8$
 	  $r=2$ 
-- find any $a_{n}$ if from any $a_{m}$ with $r$
+- find any $a_{n}$ from any $a_{m}$ with $r$
 	- $a_{n}= a_{m}r^{n-m}$
 	  e.g.  $a_{10}= a_{7} \ r^{10-7} = a_{7} \ r^{3}$
 > [!question]- In GP, if $a_{4}$ = 24, and $a_{7}$ = 192 then $a_{10}$ =?
@@ -606,13 +606,14 @@ $\cos(45+30)=\cos(30)\times(\cos 45)-\sin(30)\times \sin(45)=(\dfrac{\sqrt{ 3 }}
 
 - if sum of two angles is 90 then those co ratios are equal
 >[!question]- $\dfrac{\tan 71}{\cot 19}$
->a)Cot 42$\qquad$**b)Both C and D**$\qquad$c)Cot 45$\qquad$d)Tan 45c
+>a)$\cot 42$$\qquad$**b)Both C and D**$\qquad$c)$\cot 45$$\qquad$d)$\tan  45$
 
 
->[!question]- $\tan 9\tan 18\tan 72\tan 81$
+>[!question]- $\tan 9\times\tan 18\times\tan 72\times\tan 81$
 >a)0$\qquad$**b)1**$\qquad$c)9$\qquad$d)none
 
-$=\cot 81\cot 72\tan 72\tan 81$
+$=\cot 81\times\cot 72\times\tan 72\times\tan 81$
+
 
 >[!question]- $\dfrac{1-\cos t}{\sin t}$ 
 >a)$\cot \dfrac{t}{2}$$\qquad$b)$\tan \dfrac{3}{t}$$\qquad$**c)$\tan \dfrac{t}{2}$**$\qquad$d)$\cos 3t$
@@ -636,8 +637,8 @@ $2(3\sin 10- 4\sin^{3}10)$
 
 - for a right angled triangle
 $Cos\theta = \dfrac{Base}{Hypotenuse}$
-$Sin\theta = \dfrac{Prependicular}{Hypotenuse}$
-$\tan\theta = \dfrac{\sin \theta}{cos\theta} = \dfrac{Prependicular}{Base}$
+$Sin\theta = \dfrac{perpendicular}{Hypotenuse}$
+$\tan\theta = \dfrac{\sin \theta}{cos\theta} = \dfrac{perpendicular}{Base}$
 
 since 71+19= 90, so tan 71 = Cot(90 - 71) = Cot 19
 and tan 45 and cot 45 both  equal to one
@@ -652,9 +653,9 @@ $$
 
 Cos\theta = \dfrac{Base}{Hypotenuse} \\
  \\
-Sin\theta = \dfrac{Prependicular}{Hypotenuse} \\
+Sin\theta = \dfrac{perpendicular}{Hypotenuse} \\
  \\
-\tan\theta = \dfrac{\sin \theta}{cos\theta} = \dfrac{Prependicular}{Base}
+\tan\theta = \dfrac{\sin \theta}{cos\theta} = \dfrac{perpendicular}{Base}
 \end{align}
 
 $$
@@ -801,7 +802,7 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 | sin                                 | cos                                       | tan                                       |
 | ----------------------------------- | ----------------------------------------- | ----------------------------------------- |
 | $\sin= \dfrac{\text{perp.}}{hypo.}$ | $\cos= \dfrac{\text{base}}{\text{hypo.}}$ | $\tan= \dfrac{\text{base}}{\text{perp.}}$ |
-| ![[CNX_Calc_Figure_07_03_001.jpg]]  | ![[Pasted image 20250605212455.png]]      | ![[CNX_Calc_Figure_07_03_004.jpg]]        |
+| ![[Notes/a/attachments/CNX_Calc_Figure_07_03_001.jpg]]  | ![[Notes/a/attachments/Pasted image 20250605212455.png]]      | ![[Notes/a/attachments/CNX_Calc_Figure_07_03_004.jpg]]        |
 | base= $\sqrt{ a-x^{2} }$            | perp. = $\sqrt{ a+x^{2} }$                | hypo. = $\sqrt{ 1+x^{2} }$                |
 >[!question]- $\tan^{-1}x$ in terms of $\arccos:$ 
 >a)$\cos^{-1}\sqrt{ 1+x^{2} }$$\qquad$**b)$\cos^{-1} \dfrac{1}{\sqrt{ 1+x^{2} }}$**$\qquad$c)$\cos^{-1} \dfrac{1}{\sqrt{ 1-x^{2} }}$$\qquad$d)$\cos^{-1}\sqrt{ 1-x^{2} }$
@@ -812,28 +813,68 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 # Part 2
 
 ## 1: Function & Limits +
-- if $f(x) =f'(x)$ its called involution and give same results for same value of all values of x
-- simplify a fractional limit by taking the derivative of numerator and denominator separately, called rule of De l$'$ Hospital  $$\begin{align*}&\text{if f(a) and g(a) are equal to zero \quad } \\ & \lim_{x \to a} \dfrac{f(x)}{g(x)} =\lim_{x \to a} \dfrac{f'(x)}{g'(x)}\end{align*}$$
-- $\lim_{n \to \infty} \left(1 + \dfrac{1}{n}\right)^n = e =\lim_{x \to 0} \left(1 + x\right)^{\dfrac{1}{x}}$   
+
+
+|                       |                                                   |
+| --------------------- | ------------------------------------------------- |
+| Injective(one to one) | every elements of A maps to only one element of B |
+| surjective (onto)     | all elements of B are mapped by A, multiple       |
+| bijective             | both                                              |
+- vertical line test determine if a graph is a function or not
+	- if intersected at two points it is not a function
+- Functions:
+	- Even: $f(x)=f(-x);\qquad$graph is symmetric with respect to y-axis
+	- Odd: $f(-x)=-f(x);\qquad$graph is symmetric with respect to origin
+	  
+- if $f(x) =f'(x)$ its called involution and give same results for same value of all values of x e.g. $e^{x}$
+- ==simplify a fractional limit by taking the derivative of numerator and denominator separately, called rule of De l$'$ Hospital==  $$\begin{align*}&\text{if f(a) and g(a) are equal to zero \quad } \\ & \lim_{x \to a} \dfrac{f(x)}{g(x)} =\lim_{x \to a} \dfrac{f'(x)}{g'(x)}\end{align*}$$
+  >[!question]- Evaluate the limit: $lim_{x→3} \dfrac{​x^{2}−9}{x−3}​$. 
+>a)0$\qquad$b)undefined$\qquad$**c)6**$\qquad$d)3
+  
+- ==Important:== $\lim_{n \to \infty} \left(1 + \dfrac{1}{n}\right)^n = e =\lim_{x \to 0} \left(1 + x\right)^{\dfrac{1}{x}}$   
 
 - $\lim_{x \to 0} \dfrac{\sin x}{x} = 1$
 
 - $\lim_{x \to a} \dfrac{x^n-a^n}{n-a} = na^{n-1}$
 - **Vertical asymptotes**: in a rational functions $\dfrac{P(x)}{Q(x)}$when the $Q(x)$ equals zero while the $P(x)$does not, if both are zero its a **hole**
-- Domain and Range of $f(x)$ are Range And Domain of its inverse $f'(x)$ respectively
-- Parametric Equation of a Circle: $$ x= a\cos \theta \\  y= a\sin \theta$$
+- find inverse by isolating the $x$ and then replacing $x$ with $x^{-1}$ and $y$ with $x$
+>[!question]- What is the inverse function of $f(x)=2x−5$? 
+>a)$\dfrac{x-5}{2}$$\qquad$**b)**$\dfrac{x+5}{2}$$\qquad$c)$\dfrac{x}{2}-5$$\qquad$d)$\dfrac{x}{2}+5$
 
-- TODO: definitions on page 5-8
-- Hyperboloc and Inverse hyperbolic on page 7
+
+- In functions with limit of $x \to \infty$, ==compare the degrees of the numerator and denominator==
+	- if degree of denominator > numerator (rational function): limit is 0
+	- if degree of denominator = numerator : limit is ratio of leading coefficients
+	- if degree of denominator < numerator (irrational function): limit is $\infty$ or undefined
+>[!question]-$lim_{x \to \infty}​\dfrac{2x^{2}+3x−1​}{5x^{2}−4x+7}$. 
+>**a)**$\dfrac{2}{5}$$\qquad$b)0$\qquad$c)undefined$\qquad$d)$\infty$
+  
+>[!question]- $lim_{x \to \infty}​\dfrac{2x^{2}+3x−1​}{5x^{3}−4x+7}$. 
+>
+$a)\dfrac{2}{5}$$\qquad$**b)0**$\qquad$c)undefined$\qquad$d)$\infty$
+
+| ==function== | ==value==                             |
+| ------------ | ------------------------------------- |
+| $\sinh(x)$   | =$\dfrac{e^{x}-e^{-x}}{2}$            |
+| $\cosh(x)$   | =$\dfrac{e^{x}+e^{-x}}{2}$            |
+| $\tanh(x)$   | =$\dfrac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$ |
+
 ### domain and range
-- linear functions: ax+b = 0 have domain and range of R
-	- functions with $\sqrt{ x },|x|,(x)^{2}$  here x can never be negative so, range is $[0,+\infty]$ and domain (except $\sqrt{ x }$ ) is all real numbers R
+- typically domain is represented by $x$ and range is represented by $y$
+- linear functions: $ax+b$ = 0 have domain and range of R
+	- functions with $\sqrt{ x },|x|,(x)^{2}$  here $x$ can never be negative so, range is $[0,+\infty]$ and domain (except $\sqrt{ x }$ ) is all real numbers R
+	- $\sqrt{ x }$ only has domain of positive integers
+  >[!question]- What is the range of the function $f(x)=x^{2}$? 
+>**a**)$y \geq 0$$\qquad$b)$x \geq 0$$\qquad$c)all real numbers $\qquad$d)$y \leq 0$
+  
+- Domain and Range of $f(x)$ are Range And Domain of its inverse $f'(x)$ respectively
 - in linear and rational functions $\dfrac{1}{x}$, domain is excluding number that makes the function irrational
-  and range has a shortcut if numerator and denominator have linear polynomial functions $\dfrac{P(x)}{Q(x)}$ then exclude ratio of coefficients of x from rangee.g.  $\dfrac{ax+b}{cx+d}$ or $\dfrac{x+1}{x-5}$then Range = $R - \dfrac{a}{c}$ or $R - \{1\}$ or $(-\infty,1)U(1,\infty)$
+  and range has a ==shortcut== if numerator and denominator have linear polynomial functions $\dfrac{P(x)}{Q(x)}$ then exclude ratio of coefficients of x from range e.g.  $\dfrac{ax+b}{cx+d}$ or $\dfrac{x+1}{x-5}$then Range = $R - \dfrac{a}{c}$ or $R - \{1\}$ or $(-\infty,1)U(1,\infty)$
 ##  2: Differentiation and Derivatives
-- if a third variable is installed, don't use chain rule, simply do $\dfrac{dy}{dx}= \dfrac{\text{y equation}}{\text{x equation}}$, now differentiate separately the numerator and denominator with respect to the third variable and divide 
+- if a third variable is present, don't use chain rule, simply do $\dfrac{dy}{dx}= \dfrac{\text{y equation}}{\text{x equation}}$, now differentiate separately the numerator and denominator with respect to the third variable and divide 
 >[!question]-  if $y=2at$ and $x=at^{2}$then $\dfrac{dy}{dx}=?$
 >a)$\dfrac{1}{t}$$\qquad$b)$\dfrac{2a}{y}$$\qquad$c)$t$$\qquad$**d)**Both a) and b)
+  
   
 >[!question]- derivative of $\cos ^{4}x$ with respect to $\sin^{2}x$ is:
 
@@ -868,7 +909,7 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 | Sin   | $\dfrac{d}{dx}\sin x = \cos x$                  | $\dfrac{d}{dx}\sin^{-1} = \dfrac{1}{\sqrt{1-x^2 }}$      | $\dfrac{d}{dx}\sinh x = \cosh x$                   |
 | Cos   | $\dfrac{d}{dx}\cos x = -\sin x$                 | $\dfrac{d}{dx}\cos^{-1} = \dfrac{-1}{\sqrt{1-x^2 }}$     | $\dfrac{d}{dx}\cosh x =\sinh x$                    |
 | Tan   | $\dfrac{d}{dx}\tan x = \sec^2 x$                | $\dfrac{d}{dx}\tan^{1} = \dfrac{1}{1+x^2 }$              | $\dfrac{d}{dx}\tanh x = \sec h^2 x$                |
-| Cot   | $\dfrac{d}{dx}\cot x = -\cos ec^2 x$            | $\dfrac{d}{dx}\cot^{-1} = \dfrac{1}{1+x^2 }$             | $\dfrac{d}{dx}\coth x = -cos ech^2 x$              |
+| Cot   | $\dfrac{d}{dx}\cot x = -\cos ec^2 x$            | $\dfrac{d}{dx}\cot^{-1} = \dfrac{-1}{1+x^2 }$            | $\dfrac{d}{dx}\coth x = -cos ech^2 x$              |
 | Cosec | $\dfrac{d}{dx}\cos ec x = -\cos ec\ (x).\cot x$ | $\dfrac{d}{dx}\cos ec^{-1} = \dfrac{-1}{x\sqrt{1-x^2 }}$ | $\dfrac{d}{dx}\cosh ec x = -\cosh ec\ (x).\coth x$ |
 | Sec   | $\dfrac{d}{dx}\sec x = \sec x\tan x$            | $\dfrac{d}{dx}\sec^{-1} = \dfrac{1}{x\sqrt{1-x^2 }}$     | $\dfrac{d}{dx}\sec h x = -\sec  h x\tan h x$       |
 
@@ -876,6 +917,10 @@ since $\cos ec^{-1}(\dfrac{1}{2})=\sin^{-1}(2)$ and $\sin$ never gives 2, and ra
 >[!question]-  $\log_{7}^{1}=?$
   
   ANS = 0
+
+
+
+
 
 |                                                                |                                                           |
 | -------------------------------------------------------------- | --------------------------------------------------------- |
@@ -909,7 +954,7 @@ $$
 \end{align}
 $$
 - in $\int^{b}_{a}f'(x) \ dx$  a and b are range of $f(x)$
-- Integration cancels out derivative: $\int \dfrac{d[f(x)]}{dx}dx=f(x)$
+- Integration cancels out der uivative: $\int \dfrac{d[f(x)]}{dx}dx=f(x)$
 >[!question]- $\int^{1}_{0}\dfrac{d}{dx}(\sin ^{-1}(\dfrac{x^{2}}{1+2x}))dx$ 
 
 simply put upper and lower limit: $\sin ^{-1}(\dfrac{(1)^{2}}{1+2(1)})-\sin ^{-1}(\dfrac{(0)^{2}}{1+2(0)})=\sin ^{-1}(\dfrac{1}{3})$ 
@@ -955,24 +1000,24 @@ $$\begin{align}  \text{general form of eq. of a line:} \quad &
  \text{y-intercept} = -\dfrac{c}{b}
 \end{align}
 $$
-- two lines are coinciding if their slopes and x or y intercept are equal
+- two lines are coinciding if their slopes and $x$ or $y$ intercept are equal
 $$\begin{aligned}
 
   m_1 = m_2 ; & \quad \text{only parallel} \\
    \text{x or y intercepts are equal}; & \quad  \text{also coinciding}
 \end{aligned}$$
 
-| thing                           | formula                                                                                                         | explainations                                                    |                                   |     |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------- | --- |
-| distance                        | $d = \|AB\| = \sqrt{(x_{2}-x_{1})^{2}+ (y_{2}-y_{1})^{2}}$                                                      | distance between two points                                      |                                   |     |
-| midpoint                        | $\left( \dfrac{x_{2}+x_{1}}{2},\dfrac{y_{2}+y_{1}}{2} \right)$                                                  | the point in the middle of 2 points                              |                                   |     |
-| division of line internally     | $P = \left( \dfrac{k_{2} x_1 + k_{1} x_2}{k_{1} + k_{2}}, \dfrac{k_{2} y_1 + k_{1} y_2}{k_{1} + k_{2}} \right)$ | P is the position vector where of the point                      | ![[dividing line internally.png]] |     |
-| division of line externally     | $P = \left( \dfrac{k_{2} x_1 - k_{1} x_2}{k_{1} - k_{2}}, \dfrac{k_{2} y_1 - k_{1} y_2}{k_{1} - k_{2}} \right)$ | P is the position vector where of the point                      |                                   |     |
-| distance between point and line | $d = \dfrac{\|ax_{1}+by_{1}+c\|}{\sqrt{a^{2} +b^{2}}}$                                                          | where $ax + by + c$ is the line<br>$P(x_{1},y_{1})$ is the point |                                   |     |
-| slope                           | $\tan \theta=m=(\dfrac{y_{2}-y_{1}}{x_{2}-x_{1}})$                                                              | the tangent of inclination(θ)                                    |                                   |     |
-| ==Centroid of triangle==        | ==$( \dfrac{x_{1}+x_{2}+x_{3}}{3}, \dfrac{y_{1}+y_{2}+y_{3}}{3})$==                                             |                                                                  | ![[centroid.png]]                 |     |
-| in-center of a triangle         | $(\dfrac{a x_1 + b x_2 + c x_3}{a + b + c},\dfrac{a y_1 + b y_2 + c y_3}{a + b + c})$                           | from bisector of the angles                                      | ![[in-circle.png]]                |     |
-|                                 |                                                                                                                 |                                                                  |                                   |     |
+| thing                           | formula                                                                                                                                                                              | explainations                                                    |                                                |     |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------- | --- |
+| distance                        | $d = \|AB\| = \sqrt{(x_{2}-x_{1})^{2}+ (y_{2}-y_{1})^{2}}$                                                                                                                           | distance between two points                                      |                                                |     |
+| midpoint                        | $\left( \dfrac{x_{2}+x_{1}}{2},\dfrac{y_{2}+y_{1}}{2} \right)$                                                                                                                       | the point in the middle of 2 points                              |                                                |     |
+| division of line internally     | $P = \left( \dfrac{k_{2} x_1 + k_{1} x_2}{k_{1} + k_{2}}, \dfrac{k_{2} y_1 + k_{1} y_2}{k_{1} + k_{2}} \right)$<br>$m=k_{1}$, $n=k_{2}$                                              | P is the position vector of the point                            | ![[Notes/a/attachments/dividing line internally.png\|center\|350]] |     |
+| division of line externally     | $P = \left( \dfrac{k_{2} x_1 - k_{1} x_2}{k_{1} - k_{2}}, \dfrac{k_{2} y_1 - k_{1} y_2}{k_{1} - k_{2}} \right)$                                                                      | P is the position vector where of the point                      |                                                |     |
+| distance between point and line | $d = \dfrac{\|ax_{1}+by_{1}+c\|}{\sqrt{a^{2} +b^{2}}}$                                                                                                                               | where $ax + by + c$ is the line<br>$P(x_{1},y_{1})$ is the point |                                                |     |
+| slope                           | $\tan \theta=m=(\dfrac{y_{2}-y_{1}}{x_{2}-x_{1}})$                                                                                                                                   | the tangent of inclination(θ)                                    |                                                |     |
+| ==Centroid of triangle==        | ==$( \dfrac{x_{1}+x_{2}+x_{3}}{3}, \dfrac{y_{1}+y_{2}+y_{3}}{3})$==                                                                                                                  |                                                                  | ![[Notes/a/attachments/centroid.png\|center\|350]]                 |     |
+| in-center of a triangle         | $(\dfrac{a x_1 + b x_2 + c x_3}{a + b + c},\dfrac{a y_1 + b y_2 + c y_3}{a + b + c})$<br><br>where $x_{1},x_{2},x_{3}\dots$ are coordinates of the corner points and a,b,c the sides | from bisector of the angles                                      | ![[Notes/a/attachments/in-circle.png\|center\|300]]                |     |
+|                                 |                                                                                                                                                                                      |                                                                  |                                                |     |
 
 $$\begin{align}
   \text{Standard: }& \quad Ax + By = C \\
@@ -990,42 +1035,41 @@ $$\begin{align}
 \end{align}
 $$
 - slope of horizontal line is $0$ or $tan(0  \text{ or } 180)$ and of vertical line $\infty$ or undefined 
-- prependicul
-- if two lines are prependicular then $m_{1}\times m_{2} = -1$
+- if two lines are perpendicular then $m_{1}\times m_{2} = -1$
   if two lines are parallel then $m_{1}=m_{2}$
 - for three collinear points
-  $$
+$$\begin{align}
 \left| \begin{matrix} 
 x_1 & y_1 & 1 \\
 x_2 & y_2 & 1 \\
 x_3 & y_3 & 1
 \end{matrix} \right| = 0
+\end{align}
 $$
 
 - if slope of two lines AB and BC are equal, then A, B and C are co-linear
 - in $(x,y)$, x is the distance from y-axis and vice versa
 - 
 $$
- \text{Area of triangle    }= \Delta = \dfrac{1}{2}\begin{vmatrix}x_{1} & y_{1} & 1 \\ x_{2} & y_{2} & 1 \\ x_{3} & y_{3} & 1 \\ \end{vmatrix}
+\text{Area of triangle    }= \Delta = \dfrac{1}{2}\begin{vmatrix}x_{1} & y_{1} & 1 \\ x_{2} & y_{2} & 1 \\ x_{3} & y_{3} & 1 \\ \end{vmatrix}
 $$
 
-- if in the equation of two lines co-efficients of $x$, and co-efficients of y are equal then they are parallel  a₁=a₂ and b₁=b₂
+- if in the equation of two lines coefficients of $x$, and coefficients of $y$ are equal then they are parallel  a₁=a₂ and b₁=b₂
 - Position of a point $P(x_{1},y_{1})$ relative to a line $ax + by + c = 0$
-$$
-  \begin{align}
-  ax_{1} + by_{1} + c> 0;& \quad \text{lies above line}\\
-  ax_{1} + by_{1} + c < 0;& \quad \text{lies below line}\\
-  ax_{1} + by_{1} + c = 0;& \quad \text{lies on the line}\\
-\end{align}
-$$
+$$\begin{align}
+ax_{1} + by_{1} + c> 0;& \quad \text{lies above line}\\
+ax_{1} + by_{1} + c < 0;& \quad \text{lies below line}\\
+ax_{1} + by_{1} + c = 0;& \quad \text{lies on the line}\\
+\end{align}$$
 - similarly position of a line $ax + by + c = 0$ relative to $x \text{ and } y$ axes
 
 $$
 \begin{align}
-a> 0 ; &   \quad  \text{ above x-axis } \quad | &  \quad b> 0 ;    \quad  \text{ right y-axis } \\ 
-a < 0 ; &   \quad  \text{ below x-axis }\quad  |  & \quad b < 0 ;    \quad  \text{ left y-axis }\\
-a = 0 ; &   \quad  \text{ on x-axis } \quad \quad   |&  \quad b = 0 ;    \quad  \text{ on y-axis }\\
-\end{align}$$
+a> 0 ; &   \quad  \text{ above x-axis } \quad | &  \quad &  b> 0 ;    \quad  \text{ right y-axis } \\ 
+a < 0 ; &   \quad  \text{ below x-axis }\quad  |  & \quad  & b < 0 ;    \quad  \text{ left y-axis }\\
+a = 0 ; &   \quad  \text{ on x-axis } \quad \quad  \ \  | &  \quad &  b = 0 ;    \quad  \text{ on y-axis }\\
+\end{align}
+$$
 - if axis $(x,y)$ is shifted through $(h,k)$ then new axis   $$\begin{align}
 (X,Y) = (x-h,y-k) \\
 \\
@@ -1038,7 +1082,7 @@ $$
 a_2 & b_2 & c_2 \\ 
 a_3 & b_3 & c_3 \end{vmatrix} = 0
 $$
-- angle betwezen two lines having slopes $m_{1} \text{ and }m_{2}$, from $l_{1}$ to $l_{2}$ going counter clockwise(arrow strikes $l_{2}$)
+- angle between two lines having selopes $m_{1} \text{ and }m_{2}$, from $l_{1}$ to $l_{2}$ going counter clockwise(arrow strikes $l_{2}$)
 $$
 \tan \theta =  \dfrac{m_{2} -m_{1}}{1
 +m_{1}m_{2}}
@@ -1050,6 +1094,7 @@ $$\begin{align}
  \text{ imaginary: } &  h^{2} < ab\\ \\
 \end{align}
 $$
+they are perpendicular if $a+b=0$
 - the angle between them is:
 $$
   \tan \theta = \dfrac{2\sqrt{ h^{2} -ab}}{a+b}
@@ -1057,19 +1102,19 @@ $$
 - pair of lines perpendicular to $ax^2 + 2hxy +by^2 =0$ are given by $bx^2 - 2hxy +ay^2 =0$ 
 
 ## 5: Linear Inequalities and Programming
-- if an equality  $ax+by>$ or $<  0$ its associated equation ax + bx = 0 which represents the line, if the equations includes $\leq \text{or} \geq$ then this line is included otherwise its shown as dotted
+- if an equality  $ax+by>$ or $<  0$ its associated equation $ax + bx = 0$ which represents the line, if the equations includes $\leq \text{or} \geq$ then this line is included otherwise its shown as dotted
 - a function being maximized or minimized is an objective function
 - the solution which maximizes or minimizes a function is called an optimal solution
 - feasible regions, region restricted to first quadrant
 - optimal solution only exists in feasible region
 - intersection of two boundary lines is a corner point if its is in feasible region
-- four symbols of inequality $<,\>, \ \geq, \ \leq$
+- four symbols of inequality $<,\ >, \ \geq, \ \leq$
 - the corner point satisfies both inequalities, and can be obtained by solving the associated equation of both lines
 - 
 - 
 ## 6: Conic Section
 
-![[conic section gif.gif|center|400]]
+![[Notes/a/attachments/conic section gif.gif|center|400]]
 $$
   \text{ Circle: }x^{2}+y^{2}=1 \qquad \text{ Ellipse: }\dfrac{x^{2}}{a^{2}}+\dfrac{y^{2}}{b^{2}}=1 \qquad \text{ Hyperbola: } \dfrac{x^{2}}{a^{2}}-\dfrac{y^{2}}{b^{2}}=1 \qquad  \text{ Parabola: }y^{2}=4ax
 $$
@@ -1077,7 +1122,7 @@ $$
  \text{Most General Equation: }Ax^2 + By^2 + 2hxy + 2gx + 2fy + c = 0
 $$
 - Degenerated conic:
-	- a **point** is a degenerated **circle** or **ellipse** (plane parallel or at angle to an angle not equal to angle of cone)
+	- a **point** is a degenerated **circle** or **ellipse** (plane parallel or at angle not equal to angle of cone)
 	- a **straight line** is a degenerated **parabola** (plane at angle equal to cone)
 	- **two intersecting lines** are a degenerated **hyperbola** (plane is perpendicular to the cone)
 - eccentricity; $e=\dfrac{|PF|}{|PL|}$ is a positive constant, ==and if==
@@ -1100,7 +1145,6 @@ A = 0  &\text{ or } B = 0  \quad  &\rightarrow  \quad &\text{parabola}\\
 $$
 if $xy$ term is present ==use the following method:==
 $$\begin{align}
-
 h^2 = AB: &  \qquad \to \text{ Parabola } \\
 h^2> AB: &  \qquad \to \text{ Hyperbola} \\
 h^2 < AB: &  \qquad \to \text{ Circle or Ellipse } \\
@@ -1108,68 +1152,69 @@ h=0; \ \ A=B: & \qquad \to \text{ Circle }
 \end{align}
 $$
 
-- any point that lies on a line or conic, satisfies its equation, this core concept is used to solve many mcqs by back solving
+- any point that lies on a line or conic, satisfies its equation, this core concept is used to solve many MCQs b y back solving
 ### circle:
-- $$\begin{align}
- &\text{General Equation: \quad }Ax^2 + By^2+ 2gx + 2fy + c = 0
-\\
- &\text{Standard Equation: \quad}r^2=(x-h)^2 + (y-k)^2
-\end{align}$$
+- $$
+\begin{align}
+&\text{General Equation: \quad }Ax^2 + By^2+ 2gx + 2fy + c = 0 \\
+&\text{Standard Equation: \quad}r^2=(x-h)^2 + (y-k)^2 \\
+\end{align}
+$$
 if in general equation $A \text{ and } B$ are equal to 1 then 
 $$\begin{align}
- \text{center = } & (-g,-f) \text{ or }(h,k)\\
- \\
- \text{radius = } r=&  \sqrt{g^2+f^2-c}
+\text{center = } & (-g,-f) \text{ or }(h,k)\\
+\\
+\text{radius = } r=&  \sqrt{g^2+f^2-c}
 \end{align}
 $$
 	if values $c(h,k)$ and $r$ are given, use standard equation to form equation  of circle.
 
 - while solving any MCQ, make sure $A \text{ and }B$ are equal to $1$
 - if radius = 0 then its a point circle
-- no $xy$ term (product of x an y) is present in equation of circle
-
-- if radius = 0 then its a point circle
+- **no $xy$ term** (product of x and y) is present in equation of circle
 - if $g^{2} = c$ then circle touches x-axis
   if $f^{2} = c$ then circle touches y-axis
   if $f^{2}=g^{2} = c$ then circle touches both axes
 >[!question]- The circle $x^{2}+y^{2}+4x-2y+4=0$ touches___ 
->a)X-axis$\qquad$b)y-axis$\qquad$c)Both X and Y Axis$\qquad$d)None of the Axis
+>**a)X-axis**$\qquad$b)y-axis$\qquad$c)Both X and Y Axis$\qquad$d)None of the Axis
   
-- no $xy$ term (product of x and y) is present in equation of circle
 - length of a chord $=2\sqrt{r^2-d^2}$, where d is distance of midpoint of chord from center
 - circle is a special form of ellipse when minor and major axes are equal
 - Position of a point $P(x_{1},y_{1})$ relative to a circle is done by putting point in equation of circle(standard or general)
 $$
-  \begin{align}
-  r^2=(x_{1}-h)^2 + (y_{1}-k)^2> 0;& \quad \text{lies outside circle}\\
-   \\
+\begin{align}
+r^2=(x_{1}-h)^2 + (y_{1}-k)^2> 0;& \quad \text{lies outside circle}\\
+\\
 r^2=(x_{1}-h)^2 + (y_{1}-k)^2 < 0;& \quad \text{lies inside circle}\\
-   \\
+\\
 r^2=(x_{1}-h)^2 + (y_{1}-k)^2= 0;& \quad \text{lies on circle}\\
 \end{align}
 $$
 - to find the quadrants the circle passes though
 	  1.) find center, this will give one quadrant
-	  2.) find radius, second quadrant will be the one, which is less than radius
-	  ![[mcq circle quadrant.png]]
-- Circle passes through:
-	  all 4 quadrants if $c$ is negative
-	  3 quadrants and origin if $c$ is zero
+	  2.) find radius, compare with the distance of origin from axes, the second quadrant will be the one, which is less than radius
+>[!question]- The circle $x^{2} + y^{2} - 8x + 4y + 4 = 0$ passes through: 
+>a)I and II$\qquad$b)II and III$\qquad$c)III and IV$\qquad$**d)I and IV**
+  
+- Circle passes through
+	- all 4 quadrants if $c$ is negative
+	- 3 quadrants and origin if $c$ is zero
 	  
 
 ### tangents
 - to find tangent to a curve at any point $(x_{1},y_{1})$, replace
 $$
 \begin{align}
-  x^{2} \to x.x_{1} \\
+x^{2} \to x.x_{1} \\
    \\
 2x \to x+x_{1}\\
- \\
-  y^{2} \to y.y1 \\
- \\
+\\
+y^{2} \to y.y1 \\
+\\
 2y \to y+y1
 \end{align}
 $$
+- or take derivative and separate $\dfrac{dy}{dx}$ and then put $(x_{1},y_{1})=(x,y)$
 - length of tangent of circle from $(x_{1},y_{1})$ is done by putting $x=x_{1} \text{ and }y=y_{1}$ in equation of circle and taking square root
   **CO-EFFICIENT OF $X^{2}$ AND $Y^{2}$ MUST BE ONE**
 $$
@@ -1185,7 +1230,7 @@ y^{2} =4ax \qquad y^{2} = -4ax \qquad  \text{ are symmetric about x-axis } \\
 x^{2} =4ay \qquad x^{2} = -4ay \qquad  \text{ are symmetric about y-axis }
 \end{align}
 $$
-![[table of parabola.jpg|center|800]]
+![[Notes/a/attachments/table of parabola.jpg|center|800]]
 - the parabola opens where the term with degree 1 points; x-right, -x-left, y-up, -y-down
 
 -   $a$ is called the focal length
@@ -1200,7 +1245,7 @@ $$
 $$
  \dfrac{x^{2}}{a^{2}}+\dfrac{y^{2}}{b^{2}}=1 \qquad 
 $$
-- ![[Table of Ellipse.jpg|center|700]]
+- ![[Notes/a/attachments/Table of Ellipse.jpg|center|700]]
 - $2a$ : length of major axis
 - $2b$: length of minor axis
 - $c = \sqrt{ a^2-b^2};\qquad$ distance between center and foci:
@@ -1228,17 +1273,15 @@ $$
 - product of distances of foci to any perpendicular is $b^{2}$
 - hyperbola is along the axis which is positive in the equation
 - symmetric on both axes
-- if $a=b$ then its a rectangular hyperbola
 - Foci: $c^{2}=a^{2}+b^{2}$
-- distance between foci: 2c
-
+- distance between foci: 2ck
 - $e = \dfrac{c}{a}$
 - $c^²=a(1-e)=a-ae$
 - Directrices = $x=y=\pm \dfrac{c}{e^{2}}$
 - Length of latus-rectum: = $\dfrac{2b^{2}}{a}$
 - Length of traverse axis(where vertices lie): 2a
-- Length of conjugate axis(where CoVertices lie): 2b
-- ![[table of hyoerbola.jpg|center|600]]
+- Length of conjugate axis(where co-vertices lie): 2b
+- ![[Notes/a/attachments/table of hyoerbola.jpg|center|600]]
 >[!question]- $\dfrac{(x-2)^{2}}{9}-\dfrac{(y+1)^{2}}{16}=1$ 
  
  Center = (2,-1)
@@ -1332,9 +1375,9 @@ c_x & c_y & c_z \\
 
 | Volume of      | formula                        | diagram                                           |     |
 | -------------- | ------------------------------ | ------------------------------------------------- | --- |
-| Parallelogram  | $A\times B$                    | ![[Cross_product_parallelogram.svg\|center\|200]] |     |
-| Tetrahedron    | $\dfrac{1}{6}[A .(B\times C)]$ | ![[Tetrahedron.png\|center\|250]]                 |     |
-| Parallelepiped | $A .(B\times C)$               | ![[parallelpiped.png\|center\|500]]               |     |
+| Parallelogram  | $A\times B$                    | ![[Notes/a/attachments/Cross_product_parallelogram.svg\|center\|200]] |     |
+| Tetrahedron    | $\dfrac{1}{6}[A .(B\times C)]$ | ![[Notes/a/attachments/Tetrahedron.png\|center\|250]]                 |     |
+| Parallelepiped | $A .(B\times C)$               | ![[Notes/a/attachments/parallelpiped.png\|center\|500]]               |     |
 >[!question]- » Volume of tetrahedron whose vertices are A(0, 0, 0), B(1,1, 0), C(O, 1, 1) and D(1, 0, 1) 
 >**a)**$\dfrac{1}{3}$$\qquad$b)$\dfrac{1}{2}$$\qquad$c)$\dfrac{1}{8}$$\qquad$d)$\dfrac{1}{6}$
   

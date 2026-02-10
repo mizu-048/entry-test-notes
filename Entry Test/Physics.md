@@ -4,7 +4,7 @@ dg-publish: true
 
 # Part 1
 ## 1: Physical Quantities -+
-![[prefix table.png|center|600]]
+![[Notes/a/attachments/prefix table.png|center|600]]
 - 1 Dyne = $10^{-5}$ Newton;  dyne is from CGS system and Newton from SI
 - Uncertainty error affects precision, not accuracy
 - Least Count measures precision
@@ -27,7 +27,7 @@ dg-publish: true
 
 ## 2: Vectors -
 
-![[3d axes.png|center|400]]
+![[Notes/a/attachments/3d axes.png|center|400]]
 - resolving = splitting into components
 - minimum no. components = 2
 - maximum no. components = $\infty$
@@ -52,7 +52,8 @@ dg-publish: true
 	  e.g. $i\times (-j)=-(i\times j)=-(k)=-k$
 >[!question]- $\hat{i}.(\hat{j}\times \hat{k})$ equals? 
 >a)0$\qquad$b)3$\qquad$**c)1**$\qquad$d)-1
-  
+
+- dot product and cross product of two vectors are equal at $45^{o}$
   
 ## 3: Motion and Forces+
 - state of motion and rest are relative
@@ -85,6 +86,11 @@ dg-publish: true
 - 
 ## 4: Work and Energy-+
 - Work = Energy $= J = kWh$
+>[!question]- If mass 10 kg is moved through 4 m in 5s, then power is: 
+>a)79.6 W$\qquad$**b)78.4 W**$\qquad$c)39.2 W$\qquad$d)98 W
+  
+  $P=\dfrac{W}{t}=\dfrac{F\times d}{t}=\dfrac{(m\times g)\times d}{t}=(10\times)$
+  
 - $P_{ower} =\dfrac{W}{\Delta t}= F \times v$ 
 - Work = Change in energy = $\dfrac{1}{2}mv_{o}^{2} - \dfrac{1}{2}mv^{2}$
 >[!question]- Under the influence of a force, an object of mass 4 kg accelerates from 3 m/s to 6 m/s in 8s. How much work was done on the object during this time? 
@@ -154,10 +160,10 @@ dg-publish: true
 
 | shape     | moment of inertia       |                 |
 | --------- | ----------------------- | --------------- |
-| rod       | $I = \dfrac{1}{12}mL^2$ | ![[rod.png]]    |
-| Hoop/ring | $I = mr^2$              | ![[loop.png]]   |
-| disc      | $I = \dfrac{1}{2}mr^2$  | ![[disk.png]]   |
-| sphere    | $I = \dfrac{2}{5}mr^2$  | ![[sphere.png]] |
+| rod       | $I = \dfrac{1}{12}mL^2$ | ![[Notes/a/attachments/rod.png]]    |
+| Hoop/ring | $I = mr^2$              | ![[Notes/a/attachments/loop.png]]   |
+| disc      | $I = \dfrac{1}{2}mr^2$  | ![[Notes/a/attachments/disk.png]]   |
+| sphere    | $I = \dfrac{2}{5}mr^2$  | ![[Notes/a/attachments/sphere.png]] |
 - pseudo force: arises without any contact e.g.  Centrifugal force
 - Apparent weight 
 	falling down: $T = m(g-a)$ = original weight - upward force
@@ -222,6 +228,9 @@ written as ==80/120==
 | -------- | ------------------------------- | -------------------- | -------------------------------- | ------------------ | ----------------------------------- | ------------------------------------------------------ |
 | Spring   | $T = 2\pi \sqrt{ \dfrac{m}{k}}$ | $= \dfrac{1}{2}kx^2$ | $= \dfrac{1}{2}k(x_{o}^{2}-x^2)$ | $a=-\dfrac{k}{m}x$ | $2\pi f=\omega=\sqrt{\dfrac{k}{m}}$ | mass **does** affect time period<br>$\sqrt{ m }$ times |
 | Pendulum | $T = 2\pi \sqrt{ \dfrac{l}{g}}$ |                      |                                  | $a=-\dfrac{g}{l}x$ | $2\pi f=\omega=\sqrt{\dfrac{g}{l}}$ | **do not** affect time period                          |
+>[!question]- If spring constant and mass are doubled, the acceleration becomes: 
+>a)doubled$\qquad$b)four times$\qquad$c)half$\qquad$**d)same**
+  
 - vibratory motion is simple harmonic if angular velocity $\omega$ is uniform
 - projection of a body moving in a circle where $r$ is radius of circle and $x$ is current amplitude
 
@@ -359,14 +368,16 @@ $$
 - **Adiabatic**: No heat exchange occurs
   **Isothermal**: at constant temperature
   **Isobaric**: at constant pressure
+- **Internal Energy**: Sum of all energies of molecules of system
 - Work done on an isothermal gas with volume change: $W = nRT \ln\left(\frac{V_1}{V_2}\right)$
 >[!question]-  gas expands isothermally from volume $V_{1} =2V_{1}$​. The work done by the gas is: 
 >a)$RT\ln 2$$\qquad$**b)**$nRT\ln 2$$\qquad$c)$P_{1}V_{1}\ln 2$$\qquad$d)Zero
   
-- entropy is a measure of randomness/disorder
-  the more evenly/uniformly distributed heat is in the system, the greater the entropy
-- every natural process moves towards greater entropy(earth quake, floods, melting of ice, etc)
-- Efficiency of carnot engine: $(1-   \dfrac{\text{T}_{ \text{cold}}}{\text{T}_{ \text{hot}}}) \times 100$; ==temperature in kelvin==
+- entropy is a measure of randomness/disorder -
+	- the more evenly/uniformly distributed heat is in the system, the greater the entropy
+	- every natural process moves towards greater entropy(earth quake, floods, melting of ice, etc)
+	- SI unit: $J K^{-1}$
+- Efficiency of Carnot engine: $(1-   \dfrac{\text{T}_{ \text{cold}}}{\text{T}_{ \text{hot}}}) \times 100$; ==temperature in kelvin==
 - Laws of Thermodynamics:
 	- **First Law**: energy cannot be created or destroyed, only transformed from one form to another. 
 	- **Second Law**: the entropy of an isolated system always increases over time, indicating a tendency towards disorder or randomness. 
@@ -391,6 +402,9 @@ $$
 - capacitor is also called the condenser
 - in a capacitor, if charge is 100%, then current is zero, current is 100% if charge is zero
   $I\% = 100\% - C\%$
+>[!question]- Assuming the earth as a sphere of radius 6400 km, the capacitance of the earth is: 
+>a)Infinity$\qquad$b)Zero$\qquad$**c)**$711 \micro F$$\qquad$d)$171 \micro F$
+  
 - charge is quantized, multiple of e = $1.6\times 10^{-19}$
 
 |                                    |                                                                    |                                                          |
@@ -476,6 +490,7 @@ B B ~={red}R=~ O Y ~={green}G=~ ~={blue}B=~ ~={magenta}V=~ ~={yellow}Y=~ W
 | Magnetic Field at a distance r from wire | $B = \dfrac{\mu_{\circ}I}{2\pi r}$                     | $1 \ Tesla = 10^4 \ Gauss$                                                |
 | Magnetic field at the center of a coil   | $B = \dfrac{\mu_{\circ}I}{2R}$                         | $R= \text{radius of wire}$                                                |
 | Force on current carrying conductor      | $F = ILB\times Sin \theta$                             | direction using right hand palm rule                                      |
+| Emf by a rotating coil in M.F            | $\epsilon=$                                            |                                                                           |
 | Torque on coil in magnetic field         | $\tau = NIAB \times \cos \theta$                       | in radial magnetic field, its only NIAB                                   |
 | force on charge in magnetic field        | $F = q(v\times b)$                                     | no force on stationary charge,<br>no work is done<br>no change in K.E<br> |
 | force on charge in electric field        | $F = q\times E$                                        |                                                                           |
@@ -484,6 +499,7 @@ B B ~={red}R=~ O Y ~={green}G=~ ~={blue}B=~ ~={magenta}V=~ ~={yellow}Y=~ W
   
 - Lorentz Force = **Vector** sum of magnetic and electric forces 
   = $\sqrt{[q(V\times B)]^2 + (qE)^2} = \sqrt{{F_{e}}^2+{F_{m}}^2}$
+- Unit of **magnetic dipole moment**: $Am^{2}=\dfrac{J}{T}= \dfrac{\text{Joule}}{\text{Tesla}}$
 
 | law                       | based on law of            |
 | ------------------------- | -------------------------- |
@@ -567,8 +583,8 @@ $$
   Radio waves  have a prominent wave nature
   Gamma rays have a prominent particle nature
   as wavelength decreases/freq. increase  particle nature increase
-![[spectrum.png|700]]
-![[simple wavelength spectrum.png]]
+![[Notes/a/attachments/spectrum.png|700]]
+![[Notes/a/attachments/simple wavelength spectrum.png]]
 - static charge: **only E.F**
  moving charge: **both E.F and M.F** but no E.M wave
  accelerating charge: **changing E.F, M.F and E.M waves**
@@ -604,7 +620,7 @@ where:
 -  hence steel has more elasticity than rubber
   $$\text{Elasticity} \propto \text{Rigidity} \propto \dfrac{1}{compressibility}$$
 - ==Area of Stress-Strain curve has units of energy density==
-  ![[stress-strain.png|200]]
+  ![[Notes/a/attachments/stress-strain.png|200]]
   $$\text{Area} = \dfrac{1}{2}xy = \dfrac{1}{2}\dfrac{F}{A}\times \dfrac{\Delta L}{L_{o}}= \dfrac{1}{2}\dfrac{F\times \Delta L}{A\times L} = \dfrac{1}{2} \dfrac{ \text{Work}}{ \text{Volume}} = \text{Energy Density}$$
   
 
@@ -639,18 +655,19 @@ where:
 
  
 
-| bias    | conventional current/potential) | depletion region |     |
-| ------- | ------------------------------- | ---------------- | --- |
-| forward | from P to N                     | is shortened     |     |
-| reverse | from N to P                     | is widened       |     |
-|         |                                 |                  |     |
+| bias    | conventional current/potential) | depletion region |
+| ------- | ------------------------------- | ---------------- |
+| forward | from P to N                     | is shortened     |
+| reverse | from N to P                     | is widened       |
+
 
 | recitification | diodes | conducting at once | $f_{ \text{output}}$                            | output       |
 | -------------- | ------ | ------------------ | ----------------------------------------------- | ------------ |
-| half wave      | 1      | 1                  | $f_{ \text{Output}}= f_{ \text{Input}}$         |              |
+| half wave      | 1      | 1                  | $f_{ \text{Output}}= f_{ \text{Input}}$         | pulsating DC |
 | full wave      | 4      | 2                  | $f_{ \text{Output}}= 2\times f_{ \text{Input}}$ | pulsating DC |
-|                |        |                    |                                                 |              |
-|                |        |                    |                                                 |              |
+| center-taped   | 2      | 2                  | $f_{ \text{Output}}= 2\times f_{ \text{Input}}$ | pulsating DC |
+
+
 - depletion regions increases(reverse bias) and decreases both due to majority charge carriers
 - 
 - Emitter current> collector current> base current
@@ -658,13 +675,13 @@ where:
 - AND can be represented by two switches in series
   OR can be represented by two switches in parallel
 
-| identification                | gates | symbolic                                   |     |
-| ----------------------------- | ----- | ------------------------------------------ | --- |
-| true only when both are zero  | NOR   |                                            |     |
-| false only when both are one  | NAND  |                                            |     |
-|                               |       |                                            |     |
-| true only on different inputs | XOR   | $\overline{A}.B+A.\overline{B}$            |     |
-| true only same inputs         | XNOR  | $\overline{\overline{A}.B+A.\overline{B}}$ |     |
+| identification                | gates | symbolic                                   |
+| ----------------------------- | ----- | ------------------------------------------ |
+| true only when both are zero  | NOR   |                                            |
+| false only when both are one  | NAND  |                                            |
+|                               |       |                                            |
+| true only on different inputs | XOR   | $\overline{A}.B+A.\overline{B}$            |
+| true only same inputs         | XNOR  | $\overline{\overline{A}.B+A.\overline{B}}$ |
 - OP-AMP can amplify both AC and DC
 ## 19: Dawn of Modern Physics
 - motion alters space and time
@@ -699,6 +716,10 @@ $$
 >[!question]- A photon with wavelength 400 nm strikes a metal surface with work function 2.0 eV. The maximum kinetic energy of the emitted electron is closest to: 
 >a)1.1 eV$\qquad$b)3.1eV$\qquad$c)2.1eV$\qquad$d)4.1eV
   
+>[!question]- If electron has velocity of $10^7 ms^{-1}$, then its energy is: 
+>a)4.48eV$\qquad$**b)284eV**$\qquad$c)484eV$\qquad$d)28.4eV
+  
+  $\dfrac{1}{2}mv^{2}=(\dfrac{1}{2}\times 9.1\times 10^{-31}\times(10^{7})^{2})J$ now divide by $1.6\times 10^{-19}$ to get in eV
 
 | Energy relation           | def                                        | Relation |
 | ------------------------- | ------------------------------------------ | -------- |
